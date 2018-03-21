@@ -1,0 +1,27 @@
+[2018-02-09 11:00:00] [info]  [ 7964] Commons Daemon procrun (1.0.15.0 64-bit) started
+[2018-02-09 11:00:00] [info]  [ 7964] Service elasticsearch-service-x64 name Elasticsearch 6.1.3 (elasticsearch-service-x64)
+[2018-02-09 11:00:00] [info]  [ 7964] Service 'elasticsearch-service-x64' installed
+[2018-02-09 11:00:00] [info]  [ 7964] Commons Daemon procrun finished
+[2018-02-09 11:00:27] [info]  [ 9624] Commons Daemon procrun (1.0.15.0 64-bit) started
+[2018-02-09 11:00:27] [info]  [ 9624] Starting service 'elasticsearch-service-x64' ...
+[2018-02-09 11:00:27] [info]  [ 7592] Commons Daemon procrun (1.0.15.0 64-bit) started
+[2018-02-09 11:00:27] [info]  [ 7592] Running 'elasticsearch-service-x64' Service...
+[2018-02-09 11:00:27] [info]  [ 6556] Starting service...
+[2018-02-09 11:00:29] [info]  [ 6556] Service started in 1626 ms.
+[2018-02-09 11:00:31] [info]  [ 9624] Service 'elasticsearch-service-x64' started
+[2018-02-09 11:00:31] [info]  [ 9624] Start service finished.
+[2018-02-09 11:00:31] [info]  [ 9624] Commons Daemon procrun finished
+[2018-02-09 11:12:02] [info]  [10584] Console SHUTDOWN event signaled
+[2018-02-09 11:12:02] [info]  [10584] Stopping service...
+[2018-02-09 11:12:03] [info]  [10584] Service stop thread completed.
+[2018-02-09 11:12:03] [info]  [ 7592] Run service finished.
+[2018-02-09 11:12:03] [info]  [ 7592] Commons Daemon procrun finished
+[2018-02-09 11:26:32] [info]  [ 2428] Commons Daemon procrun (1.0.15.0 64-bit) started
+[2018-02-09 11:26:32] [info]  [ 2428] Running 'elasticsearch-service-x64' Service...
+[2018-02-09 11:26:32] [info]  [ 3136] Starting service...
+[2018-02-09 11:26:34] [info]  [ 3136] Service started in 2100 ms.
+[2018-02-11 11:21:26] [info]  [ 8000] Console SHUTDOWN event signaled
+[2018-02-11 11:21:26] [info]  [ 8000] Stopping service...
+[2018-02-11 11:21:27] [info]  [ 8000] Service stop thread completed.
+[2018-02-11 11:21:27] [info]  [ 2428] Run service finished.
+[2018-02-11 11:21:27] [info]  [ 2428] Commons Daemon procrun finished

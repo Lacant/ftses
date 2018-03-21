@@ -1,0 +1,17 @@
+[2018-02-08 17:14:15] [info]  [ 7228] Commons Daemon procrun (1.0.15.0 64-bit) started
+[2018-02-08 17:14:15] [info]  [ 7228] Running 'elasticsearch-service-x64' Service...
+[2018-02-08 17:14:15] [info]  [ 9152] Starting service...
+[2018-02-08 17:14:17] [info]  [ 9152] Service started in 2233 ms.
+[2018-02-08 19:31:45] [info]  [ 4264] Commons Daemon procrun (1.0.15.0 64-bit) started
+[2018-02-08 19:31:45] [info]  [ 4264] Stopping service 'elasticsearch-service-x64' ...
+[2018-02-08 19:31:45] [info]  [15044] Stopping service...
+[2018-02-08 19:31:46] [info]  [15044] Service stop thread completed.
+[2018-02-08 19:31:46] [info]  [ 7228] Run service finished.
+[2018-02-08 19:31:46] [info]  [ 7228] Commons Daemon procrun finished
+[2018-02-08 19:31:48] [info]  [ 4264] Service 'elasticsearch-service-x64' stopped
+[2018-02-08 19:31:48] [info]  [ 4264] Stop service finished.
+[2018-02-08 19:31:48] [info]  [ 4264] Commons Daemon procrun finished
+[2018-02-08 19:32:05] [info]  [ 7212] Commons Daemon procrun (1.0.15.0 64-bit) started
+[2018-02-08 19:32:05] [info]  [ 7212] Deleting service...
+[2018-02-08 19:32:05] [info]  [ 7212] Delete service finished.
+[2018-02-08 19:32:05] [info]  [ 7212] Commons Daemon procrun finished

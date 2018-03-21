@@ -1,0 +1,5 @@
+[2018-03-21 09:37:42] [info]  [12008] Commons Daemon procrun (1.0.15.0 64-bit) started
+[2018-03-21 09:37:42] [info]  [12008] Stopping service 'elasticsearch-service-x64' ...
+[2018-03-21 09:37:54] [info]  [12008] Service 'elasticsearch-service-x64' stopped
+[2018-03-21 09:37:54] [info]  [12008] Stop service finished.
+[2018-03-21 09:37:54] [info]  [12008] Commons Daemon procrun finished

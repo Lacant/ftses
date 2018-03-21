@@ -1,0 +1,581 @@
+
+2018-02-07 10:02:30 Commons Daemon procrun stdout initialized
+
+2018-02-07 10:02:51 Commons Daemon procrun stdout initialized
+
+2018-02-07 10:05:43 Commons Daemon procrun stdout initialized
+
+2018-02-07 10:19:25 Commons Daemon procrun stdout initialized
+
+2018-02-07 10:20:31 Commons Daemon procrun stdout initialized
+
+2018-02-07 10:25:35 Commons Daemon procrun stdout initialized
+
+2018-02-07 10:25:51 Commons Daemon procrun stdout initialized
+
+2018-02-07 10:28:48 Commons Daemon procrun stdout initialized
+
+2018-02-07 10:29:25 Commons Daemon procrun stdout initialized
+
+2018-02-07 10:32:57 Commons Daemon procrun stdout initialized
+
+2018-02-07 10:39:42 Commons Daemon procrun stdout initialized
+
+2018-02-07 10:42:39 Commons Daemon procrun stdout initialized
+
+2018-02-07 10:43:11 Commons Daemon procrun stdout initialized
+
+2018-02-07 10:44:44 Commons Daemon procrun stdout initialized
+
+2018-02-07 10:45:29 Commons Daemon procrun stdout initialized
+
+2018-02-07 10:46:10 Commons Daemon procrun stdout initialized
+
+2018-02-07 10:51:42 Commons Daemon procrun stdout initialized
+
+2018-02-07 11:06:59 Commons Daemon procrun stdout initialized
+[2018-02-07T11:07:05,449][INFO ][o.e.n.Node               ] [] initializing ...
+[2018-02-07T11:07:05,590][INFO ][o.e.e.NodeEnvironment    ] [ioVx7ov] using [1] data paths, mounts [[(C:)]], net usable_space [126.3gb], net total_space [237.7gb], types [NTFS]
+[2018-02-07T11:07:05,590][INFO ][o.e.e.NodeEnvironment    ] [ioVx7ov] heap size [3.9gb], compressed ordinary object pointers [true]
+[2018-02-07T11:07:05,605][INFO ][o.e.n.Node               ] node name [ioVx7ov] derived from node ID [ioVx7ovWS_ugPJvAO5H8Xw]; set [node.name] to override
+[2018-02-07T11:07:05,605][INFO ][o.e.n.Node               ] version[6.1.3], pid[1284], build[af51318/2018-01-26T18:22:55.523Z], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/9.0.4/9.0.4+11]
+[2018-02-07T11:07:05,605][INFO ][o.e.n.Node               ] JVM arguments [-Xms4g, -Xmx4g, -XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -XX:-OmitStackTraceInFastThrow, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -XX:+HeapDumpOnOutOfMemoryError, -Delasticsearch, -Des.path.home=C:\Users\Sheirly\Desktop\ES\elasticsearch-6.1.3, -Des.path.conf=C:\Users\Sheirly\Desktop\ES\elasticsearch-6.1.3\config, exit, -Xms4096m, -Xmx4096m, -Xss1024k]
+[2018-02-07T11:07:08,995][INFO ][o.e.p.PluginsService     ] [ioVx7ov] loaded module [aggs-matrix-stats]
+[2018-02-07T11:07:08,995][INFO ][o.e.p.PluginsService     ] [ioVx7ov] loaded module [analysis-common]
+[2018-02-07T11:07:08,995][INFO ][o.e.p.PluginsService     ] [ioVx7ov] loaded module [ingest-common]
+[2018-02-07T11:07:08,995][INFO ][o.e.p.PluginsService     ] [ioVx7ov] loaded module [lang-expression]
+[2018-02-07T11:07:08,995][INFO ][o.e.p.PluginsService     ] [ioVx7ov] loaded module [lang-mustache]
+[2018-02-07T11:07:08,995][INFO ][o.e.p.PluginsService     ] [ioVx7ov] loaded module [lang-painless]
+[2018-02-07T11:07:08,995][INFO ][o.e.p.PluginsService     ] [ioVx7ov] loaded module [mapper-extras]
+[2018-02-07T11:07:08,995][INFO ][o.e.p.PluginsService     ] [ioVx7ov] loaded module [parent-join]
+[2018-02-07T11:07:08,995][INFO ][o.e.p.PluginsService     ] [ioVx7ov] loaded module [percolator]
+[2018-02-07T11:07:08,995][INFO ][o.e.p.PluginsService     ] [ioVx7ov] loaded module [reindex]
+[2018-02-07T11:07:08,995][INFO ][o.e.p.PluginsService     ] [ioVx7ov] loaded module [repository-url]
+[2018-02-07T11:07:08,995][INFO ][o.e.p.PluginsService     ] [ioVx7ov] loaded module [transport-netty4]
+[2018-02-07T11:07:08,995][INFO ][o.e.p.PluginsService     ] [ioVx7ov] loaded module [tribe]
+[2018-02-07T11:07:08,995][INFO ][o.e.p.PluginsService     ] [ioVx7ov] no plugins loaded
+[2018-02-07T11:07:11,851][INFO ][o.e.d.DiscoveryModule    ] [ioVx7ov] using discovery type [zen]
+[2018-02-07T11:07:13,363][INFO ][o.e.n.Node               ] initialized
+[2018-02-07T11:07:13,364][INFO ][o.e.n.Node               ] [ioVx7ov] starting ...
+[2018-02-07T11:07:14,056][INFO ][o.e.t.TransportService   ] [ioVx7ov] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2018-02-07T11:07:17,144][INFO ][o.e.c.s.MasterService    ] [ioVx7ov] zen-disco-elected-as-master ([0] nodes joined), reason: new_master {ioVx7ov}{ioVx7ovWS_ugPJvAO5H8Xw}{iwZvIvfjQsm0_DDG2NTkAQ}{127.0.0.1}{127.0.0.1:9300}
+[2018-02-07T11:07:17,159][INFO ][o.e.c.s.ClusterApplierService] [ioVx7ov] new_master {ioVx7ov}{ioVx7ovWS_ugPJvAO5H8Xw}{iwZvIvfjQsm0_DDG2NTkAQ}{127.0.0.1}{127.0.0.1:9300}, reason: apply cluster state (from master [master {ioVx7ov}{ioVx7ovWS_ugPJvAO5H8Xw}{iwZvIvfjQsm0_DDG2NTkAQ}{127.0.0.1}{127.0.0.1:9300} committed version [1] source [zen-disco-elected-as-master ([0] nodes joined)]])
+[2018-02-07T11:07:17,311][INFO ][o.e.g.GatewayService     ] [ioVx7ov] recovered [0] indices into cluster_state
+[2018-02-07T11:07:17,701][INFO ][o.e.h.n.Netty4HttpServerTransport] [ioVx7ov] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2018-02-07T11:07:17,701][INFO ][o.e.n.Node               ] [ioVx7ov] started
+[2018-02-07T11:08:18,119][INFO ][o.e.n.Node               ] [ioVx7ov] stopping ...
+[2018-02-07T11:08:18,135][INFO ][o.e.n.Node               ] [ioVx7ov] stopped
+[2018-02-07T11:08:18,135][INFO ][o.e.n.Node               ] [ioVx7ov] closing ...
+[2018-02-07T11:08:18,151][INFO ][o.e.n.Node               ] [ioVx7ov] closed
+
+2018-02-07 11:11:25 Commons Daemon procrun stdout initialized
+[2018-02-07T11:11:27,605][INFO ][o.e.n.Node               ] [] initializing ...
+[2018-02-07T11:11:27,745][INFO ][o.e.e.NodeEnvironment    ] [ioVx7ov] using [1] data paths, mounts [[(C:)]], net usable_space [126.3gb], net total_space [237.7gb], types [NTFS]
+[2018-02-07T11:11:27,745][INFO ][o.e.e.NodeEnvironment    ] [ioVx7ov] heap size [990.7mb], compressed ordinary object pointers [true]
+[2018-02-07T11:11:27,745][INFO ][o.e.n.Node               ] node name [ioVx7ov] derived from node ID [ioVx7ovWS_ugPJvAO5H8Xw]; set [node.name] to override
+[2018-02-07T11:11:27,745][INFO ][o.e.n.Node               ] version[6.1.3], pid[6356], build[af51318/2018-01-26T18:22:55.523Z], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/9.0.4/9.0.4+11]
+[2018-02-07T11:11:27,745][INFO ][o.e.n.Node               ] JVM arguments [-Xms1g, -Xmx1g, -XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -XX:-OmitStackTraceInFastThrow, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -XX:+HeapDumpOnOutOfMemoryError, -Delasticsearch, -Des.path.home=C:\Users\Sheirly\Desktop\ES\elasticsearch-6.1.3, -Des.path.conf=C:\Users\Sheirly\Desktop\ES\elasticsearch-6.1.3\config, exit, -Xms1024m, -Xmx1024m, -Xss1024k]
+[2018-02-07T11:11:29,755][INFO ][o.e.p.PluginsService     ] [ioVx7ov] loaded module [aggs-matrix-stats]
+[2018-02-07T11:11:29,755][INFO ][o.e.p.PluginsService     ] [ioVx7ov] loaded module [analysis-common]
+[2018-02-07T11:11:29,755][INFO ][o.e.p.PluginsService     ] [ioVx7ov] loaded module [ingest-common]
+[2018-02-07T11:11:29,755][INFO ][o.e.p.PluginsService     ] [ioVx7ov] loaded module [lang-expression]
+[2018-02-07T11:11:29,755][INFO ][o.e.p.PluginsService     ] [ioVx7ov] loaded module [lang-mustache]
+[2018-02-07T11:11:29,755][INFO ][o.e.p.PluginsService     ] [ioVx7ov] loaded module [lang-painless]
+[2018-02-07T11:11:29,755][INFO ][o.e.p.PluginsService     ] [ioVx7ov] loaded module [mapper-extras]
+[2018-02-07T11:11:29,755][INFO ][o.e.p.PluginsService     ] [ioVx7ov] loaded module [parent-join]
+[2018-02-07T11:11:29,755][INFO ][o.e.p.PluginsService     ] [ioVx7ov] loaded module [percolator]
+[2018-02-07T11:11:29,771][INFO ][o.e.p.PluginsService     ] [ioVx7ov] loaded module [reindex]
+[2018-02-07T11:11:29,771][INFO ][o.e.p.PluginsService     ] [ioVx7ov] loaded module [repository-url]
+[2018-02-07T11:11:29,771][INFO ][o.e.p.PluginsService     ] [ioVx7ov] loaded module [transport-netty4]
+[2018-02-07T11:11:29,771][INFO ][o.e.p.PluginsService     ] [ioVx7ov] loaded module [tribe]
+[2018-02-07T11:11:29,771][INFO ][o.e.p.PluginsService     ] [ioVx7ov] no plugins loaded
+[2018-02-07T11:11:32,203][INFO ][o.e.d.DiscoveryModule    ] [ioVx7ov] using discovery type [zen]
+[2018-02-07T11:11:33,120][INFO ][o.e.n.Node               ] initialized
+[2018-02-07T11:11:33,120][INFO ][o.e.n.Node               ] [ioVx7ov] starting ...
+[2018-02-07T11:11:33,750][INFO ][o.e.t.TransportService   ] [ioVx7ov] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2018-02-07T11:11:36,836][INFO ][o.e.c.s.MasterService    ] [ioVx7ov] zen-disco-elected-as-master ([0] nodes joined), reason: new_master {ioVx7ov}{ioVx7ovWS_ugPJvAO5H8Xw}{gOQFEcpaSb2AeiU3xusvZQ}{127.0.0.1}{127.0.0.1:9300}
+[2018-02-07T11:11:36,845][INFO ][o.e.c.s.ClusterApplierService] [ioVx7ov] new_master {ioVx7ov}{ioVx7ovWS_ugPJvAO5H8Xw}{gOQFEcpaSb2AeiU3xusvZQ}{127.0.0.1}{127.0.0.1:9300}, reason: apply cluster state (from master [master {ioVx7ov}{ioVx7ovWS_ugPJvAO5H8Xw}{gOQFEcpaSb2AeiU3xusvZQ}{127.0.0.1}{127.0.0.1:9300} committed version [1] source [zen-disco-elected-as-master ([0] nodes joined)]])
+[2018-02-07T11:11:36,921][INFO ][o.e.g.GatewayService     ] [ioVx7ov] recovered [0] indices into cluster_state
+[2018-02-07T11:11:37,080][INFO ][o.e.h.n.Netty4HttpServerTransport] [ioVx7ov] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2018-02-07T11:11:37,080][INFO ][o.e.n.Node               ] [ioVx7ov] started
+[2018-02-07T11:11:52,450][INFO ][o.e.n.Node               ] [ioVx7ov] stopping ...
+[2018-02-07T11:11:52,466][INFO ][o.e.n.Node               ] [ioVx7ov] stopped
+[2018-02-07T11:11:52,466][INFO ][o.e.n.Node               ] [ioVx7ov] closing ...
+[2018-02-07T11:11:52,466][INFO ][o.e.n.Node               ] [ioVx7ov] closed
+
+2018-02-07 11:12:09 Commons Daemon procrun stdout initialized
+[2018-02-07T11:12:11,330][INFO ][o.e.n.Node               ] [] initializing ...
+[2018-02-07T11:12:11,495][INFO ][o.e.e.NodeEnvironment    ] [ioVx7ov] using [1] data paths, mounts [[(C:)]], net usable_space [126.3gb], net total_space [237.7gb], types [NTFS]
+[2018-02-07T11:12:11,495][INFO ][o.e.e.NodeEnvironment    ] [ioVx7ov] heap size [990.7mb], compressed ordinary object pointers [true]
+[2018-02-07T11:12:11,495][INFO ][o.e.n.Node               ] node name [ioVx7ov] derived from node ID [ioVx7ovWS_ugPJvAO5H8Xw]; set [node.name] to override
+[2018-02-07T11:12:11,495][INFO ][o.e.n.Node               ] version[6.1.3], pid[6028], build[af51318/2018-01-26T18:22:55.523Z], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/9.0.4/9.0.4+11]
+[2018-02-07T11:12:11,495][INFO ][o.e.n.Node               ] JVM arguments [-Xms1g, -Xmx1g, -XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -XX:-OmitStackTraceInFastThrow, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -XX:+HeapDumpOnOutOfMemoryError, -Delasticsearch, -Des.path.home=C:\Users\Sheirly\Desktop\ES\elasticsearch-6.1.3, -Des.path.conf=C:\Users\Sheirly\Desktop\ES\elasticsearch-6.1.3\config, exit, -Xms1024m, -Xmx1024m, -Xss1024k]
+[2018-02-07T11:12:13,620][INFO ][o.e.p.PluginsService     ] [ioVx7ov] loaded module [aggs-matrix-stats]
+[2018-02-07T11:12:13,620][INFO ][o.e.p.PluginsService     ] [ioVx7ov] loaded module [analysis-common]
+[2018-02-07T11:12:13,620][INFO ][o.e.p.PluginsService     ] [ioVx7ov] loaded module [ingest-common]
+[2018-02-07T11:12:13,620][INFO ][o.e.p.PluginsService     ] [ioVx7ov] loaded module [lang-expression]
+[2018-02-07T11:12:13,620][INFO ][o.e.p.PluginsService     ] [ioVx7ov] loaded module [lang-mustache]
+[2018-02-07T11:12:13,620][INFO ][o.e.p.PluginsService     ] [ioVx7ov] loaded module [lang-painless]
+[2018-02-07T11:12:13,620][INFO ][o.e.p.PluginsService     ] [ioVx7ov] loaded module [mapper-extras]
+[2018-02-07T11:12:13,620][INFO ][o.e.p.PluginsService     ] [ioVx7ov] loaded module [parent-join]
+[2018-02-07T11:12:13,620][INFO ][o.e.p.PluginsService     ] [ioVx7ov] loaded module [percolator]
+[2018-02-07T11:12:13,620][INFO ][o.e.p.PluginsService     ] [ioVx7ov] loaded module [reindex]
+[2018-02-07T11:12:13,620][INFO ][o.e.p.PluginsService     ] [ioVx7ov] loaded module [repository-url]
+[2018-02-07T11:12:13,620][INFO ][o.e.p.PluginsService     ] [ioVx7ov] loaded module [transport-netty4]
+[2018-02-07T11:12:13,620][INFO ][o.e.p.PluginsService     ] [ioVx7ov] loaded module [tribe]
+[2018-02-07T11:12:13,620][INFO ][o.e.p.PluginsService     ] [ioVx7ov] no plugins loaded
+[2018-02-07T11:12:16,418][INFO ][o.e.d.DiscoveryModule    ] [ioVx7ov] using discovery type [zen]
+[2018-02-07T11:12:17,429][INFO ][o.e.n.Node               ] initialized
+[2018-02-07T11:12:17,429][INFO ][o.e.n.Node               ] [ioVx7ov] starting ...
+[2018-02-07T11:12:18,103][INFO ][o.e.t.TransportService   ] [ioVx7ov] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2018-02-07T11:12:21,198][INFO ][o.e.c.s.MasterService    ] [ioVx7ov] zen-disco-elected-as-master ([0] nodes joined), reason: new_master {ioVx7ov}{ioVx7ovWS_ugPJvAO5H8Xw}{KOGjbe1fRPiBOUyk0IMvgA}{127.0.0.1}{127.0.0.1:9300}
+[2018-02-07T11:12:21,211][INFO ][o.e.c.s.ClusterApplierService] [ioVx7ov] new_master {ioVx7ov}{ioVx7ovWS_ugPJvAO5H8Xw}{KOGjbe1fRPiBOUyk0IMvgA}{127.0.0.1}{127.0.0.1:9300}, reason: apply cluster state (from master [master {ioVx7ov}{ioVx7ovWS_ugPJvAO5H8Xw}{KOGjbe1fRPiBOUyk0IMvgA}{127.0.0.1}{127.0.0.1:9300} committed version [1] source [zen-disco-elected-as-master ([0] nodes joined)]])
+[2018-02-07T11:12:21,281][INFO ][o.e.g.GatewayService     ] [ioVx7ov] recovered [0] indices into cluster_state
+[2018-02-07T11:12:21,453][INFO ][o.e.h.n.Netty4HttpServerTransport] [ioVx7ov] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2018-02-07T11:12:21,453][INFO ][o.e.n.Node               ] [ioVx7ov] started
+[2018-02-07T12:05:49,147][INFO ][o.e.c.m.MetaDataCreateIndexService] [ioVx7ov] [megacorp] creating index, cause [auto(bulk api)], templates [], shards [5]/[1], mappings []
+[2018-02-07T12:05:49,928][INFO ][o.e.c.m.MetaDataMappingService] [ioVx7ov] [megacorp/DtSeOKQLSGet5mJMfzHI3g] create_mapping [employee]
+[2018-02-08T10:50:28,041][DEBUG][o.e.a.b.TransportShardBulkAction] [megacorp][2] failed to execute bulk item (index) BulkShardRequest [[megacorp][2]] containing [index {[megacorp][employee][4], source[{
+    "first_name" : "Dog",
+    "last_name" : "Pig",
+}
+]}]
+org.elasticsearch.index.mapper.MapperParsingException: failed to parse
+	at org.elasticsearch.index.mapper.DocumentParser.wrapInMapperParsingException(DocumentParser.java:175) ~[elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.index.mapper.DocumentParser.parseDocument(DocumentParser.java:70) ~[elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.index.mapper.DocumentMapper.parse(DocumentMapper.java:261) ~[elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.index.shard.IndexShard.prepareIndex(IndexShard.java:708) ~[elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.index.shard.IndexShard.applyIndexOperation(IndexShard.java:686) ~[elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.index.shard.IndexShard.applyIndexOperationOnPrimary(IndexShard.java:667) ~[elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.action.bulk.TransportShardBulkAction.executeIndexRequestOnPrimary(TransportShardBulkAction.java:548) ~[elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.action.bulk.TransportShardBulkAction.executeIndexRequest(TransportShardBulkAction.java:140) [elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.action.bulk.TransportShardBulkAction.executeBulkItemRequest(TransportShardBulkAction.java:236) [elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.action.bulk.TransportShardBulkAction.performOnPrimary(TransportShardBulkAction.java:123) [elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.action.bulk.TransportShardBulkAction.shardOperationOnPrimary(TransportShardBulkAction.java:110) [elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.action.bulk.TransportShardBulkAction.shardOperationOnPrimary(TransportShardBulkAction.java:72) [elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryShardReference.perform(TransportReplicationAction.java:1033) [elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryShardReference.perform(TransportReplicationAction.java:1011) [elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.action.support.replication.ReplicationOperation.execute(ReplicationOperation.java:104) [elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$AsyncPrimaryAction.onResponse(TransportReplicationAction.java:358) [elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$AsyncPrimaryAction.onResponse(TransportReplicationAction.java:298) [elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$1.onResponse(TransportReplicationAction.java:974) [elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$1.onResponse(TransportReplicationAction.java:971) [elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.index.shard.IndexShardOperationPermits.acquire(IndexShardOperationPermits.java:238) [elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.index.shard.IndexShard.acquirePrimaryOperationPermit(IndexShard.java:2210) [elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction.acquirePrimaryShardReference(TransportReplicationAction.java:983) [elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction.access$500(TransportReplicationAction.java:97) [elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$AsyncPrimaryAction.doRun(TransportReplicationAction.java:319) [elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) [elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryOperationTransportHandler.messageReceived(TransportReplicationAction.java:294) [elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryOperationTransportHandler.messageReceived(TransportReplicationAction.java:281) [elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:66) [elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.transport.TransportService$7.doRun(TransportService.java:652) [elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:637) [elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) [elasticsearch-6.1.3.jar:6.1.3]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641) [?:?]
+	at java.lang.Thread.run(Thread.java:844) [?:?]
+Caused by: com.fasterxml.jackson.core.JsonParseException: Unexpected character ('}' (code 125)): was expecting double-quote to start field name
+ at [Source: org.elasticsearch.common.bytes.BytesReference$MarkSupportingStreamInputWrapper@46618fc4; line: 4, column: 2]
+	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:1702) ~[jackson-core-2.8.10.jar:2.8.10]
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:558) ~[jackson-core-2.8.10.jar:2.8.10]
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportUnexpectedChar(ParserMinimalBase.java:456) ~[jackson-core-2.8.10.jar:2.8.10]
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser._handleOddName(UTF8StreamJsonParser.java:2054) ~[jackson-core-2.8.10.jar:2.8.10]
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser._parseName(UTF8StreamJsonParser.java:1701) ~[jackson-core-2.8.10.jar:2.8.10]
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser.nextToken(UTF8StreamJsonParser.java:776) ~[jackson-core-2.8.10.jar:2.8.10]
+	at org.elasticsearch.common.xcontent.json.JsonXContentParser.nextToken(JsonXContentParser.java:52) ~[elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.index.mapper.DocumentParser.innerParseObject(DocumentParser.java:409) ~[elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.index.mapper.DocumentParser.parseObjectOrNested(DocumentParser.java:384) ~[elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.index.mapper.DocumentParser.internalParseDocument(DocumentParser.java:93) ~[elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.index.mapper.DocumentParser.parseDocument(DocumentParser.java:67) ~[elasticsearch-6.1.3.jar:6.1.3]
+	... 32 more
+[2018-02-08T10:52:09,641][INFO ][o.e.c.m.MetaDataCreateIndexService] [ioVx7ov] [website] creating index, cause [auto(bulk api)], templates [], shards [5]/[1], mappings []
+[2018-02-08T10:52:10,190][INFO ][o.e.c.m.MetaDataMappingService] [ioVx7ov] [website/ry2FVJn4R6emPEWCQZRPYQ] create_mapping [blog]
+[2018-02-08T10:52:41,316][INFO ][o.e.c.m.MetaDataDeleteIndexService] [ioVx7ov] [website/ry2FVJn4R6emPEWCQZRPYQ] deleting index
+[2018-02-08T10:56:12,426][INFO ][o.e.c.m.MetaDataCreateIndexService] [ioVx7ov] [website] creating index, cause [auto(bulk api)], templates [], shards [5]/[1], mappings []
+[2018-02-08T10:56:12,881][INFO ][o.e.c.m.MetaDataMappingService] [ioVx7ov] [website/kOC_cePhSFWBjNJfn8gSNQ] create_mapping [blog]
+[2018-02-08T12:06:04,487][DEBUG][o.e.a.a.i.m.p.TransportPutMappingAction] [ioVx7ov] failed to put mappings on indices [[[website/kOC_cePhSFWBjNJfn8gSNQ]]], type [vedio]
+java.lang.IllegalArgumentException: Rejecting mapping update to [website] as the final mapping would have more than 1 type: [vedio, blog]
+	at org.elasticsearch.index.mapper.MapperService.internalMerge(MapperService.java:494) ~[elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.index.mapper.MapperService.internalMerge(MapperService.java:350) ~[elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.index.mapper.MapperService.merge(MapperService.java:282) ~[elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.applyRequest(MetaDataMappingService.java:311) ~[elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.execute(MetaDataMappingService.java:230) ~[elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.cluster.service.MasterService.executeTasks(MasterService.java:640) ~[elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.cluster.service.MasterService.calculateTaskOutputs(MasterService.java:270) ~[elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.cluster.service.MasterService.runTasks(MasterService.java:195) [elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.cluster.service.MasterService$Batcher.run(MasterService.java:130) [elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.cluster.service.TaskBatcher.runIfNotProcessed(TaskBatcher.java:150) [elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.cluster.service.TaskBatcher$BatchedTask.run(TaskBatcher.java:188) [elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:568) [elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:247) [elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:210) [elasticsearch-6.1.3.jar:6.1.3]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641) [?:?]
+	at java.lang.Thread.run(Thread.java:844) [?:?]
+[2018-02-08T12:06:04,505][DEBUG][o.e.a.b.TransportShardBulkAction] [website][3] failed to execute bulk item (index) BulkShardRequest [[website][3]] containing [index {[website][vedio][1], source[{
+  "title": "My first vedio",
+  "text":  "like it...",
+  "date":  "2014/01/01"
+}
+]}]
+java.lang.IllegalArgumentException: Rejecting mapping update to [website] as the final mapping would have more than 1 type: [vedio, blog]
+	at org.elasticsearch.index.mapper.MapperService.internalMerge(MapperService.java:494) ~[elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.index.mapper.MapperService.internalMerge(MapperService.java:350) ~[elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.index.mapper.MapperService.merge(MapperService.java:282) ~[elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.applyRequest(MetaDataMappingService.java:311) ~[elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.execute(MetaDataMappingService.java:230) ~[elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.cluster.service.MasterService.executeTasks(MasterService.java:640) ~[elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.cluster.service.MasterService.calculateTaskOutputs(MasterService.java:270) ~[elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.cluster.service.MasterService.runTasks(MasterService.java:195) ~[elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.cluster.service.MasterService$Batcher.run(MasterService.java:130) ~[elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.cluster.service.TaskBatcher.runIfNotProcessed(TaskBatcher.java:150) ~[elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.cluster.service.TaskBatcher$BatchedTask.run(TaskBatcher.java:188) ~[elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:568) ~[elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:247) ~[elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:210) ~[elasticsearch-6.1.3.jar:6.1.3]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641) [?:?]
+	at java.lang.Thread.run(Thread.java:844) [?:?]
+[2018-02-08T12:08:17,447][INFO ][o.e.c.m.MetaDataCreateIndexService] [ioVx7ov] [websit] creating index, cause [auto(bulk api)], templates [], shards [5]/[1], mappings []
+[2018-02-08T12:08:17,887][INFO ][o.e.c.m.MetaDataMappingService] [ioVx7ov] [websit/IDJKwtAqQ7COKEfwmwe35w] create_mapping [vedio]
+[2018-02-08T12:49:38,167][INFO ][o.e.c.m.MetaDataCreateIndexService] [ioVx7ov] [.kibana] creating index, cause [auto(bulk api)], templates [kibana_index_template:.kibana], shards [1]/[1], mappings [doc]
+[2018-02-08T12:49:40,564][INFO ][o.e.c.m.MetaDataMappingService] [ioVx7ov] [.kibana/rbtlIV0tT3-jMrQK--iW2A] update_mapping [doc]
+[2018-02-08T15:39:55,951][INFO ][o.e.c.m.MetaDataCreateIndexService] [ioVx7ov] [doctest] creating index, cause [api], templates [], shards [5]/[1], mappings [doc]
+[2018-02-08T15:39:56,246][INFO ][o.e.c.m.MetaDataCreateIndexService] [ioVx7ov] [doctest_folder] creating index, cause [api], templates [], shards [5]/[1], mappings [doc]
+[2018-02-08T15:47:39,457][WARN ][r.suppressed             ] path: /doctest/es/_search, params: {index=doctest, type=es}
+com.fasterxml.jackson.core.JsonParseException: Unrecognized token 'GET': was expecting ('true', 'false' or 'null')
+ at [Source: org.elasticsearch.transport.netty4.ByteBufStreamInput@585754b0; line: 1, column: 5]
+	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:1702) ~[jackson-core-2.8.10.jar:2.8.10]
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:558) ~[jackson-core-2.8.10.jar:2.8.10]
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser._reportInvalidToken(UTF8StreamJsonParser.java:3528) ~[jackson-core-2.8.10.jar:2.8.10]
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser._handleUnexpectedValue(UTF8StreamJsonParser.java:2686) ~[jackson-core-2.8.10.jar:2.8.10]
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser._nextTokenNotInObject(UTF8StreamJsonParser.java:878) ~[jackson-core-2.8.10.jar:2.8.10]
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser.nextToken(UTF8StreamJsonParser.java:772) ~[jackson-core-2.8.10.jar:2.8.10]
+	at org.elasticsearch.common.xcontent.json.JsonXContentParser.nextToken(JsonXContentParser.java:52) ~[elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.search.builder.SearchSourceBuilder.parseXContent(SearchSourceBuilder.java:962) ~[elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.rest.action.search.RestSearchAction.parseSearchRequest(RestSearchAction.java:112) ~[elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.rest.action.search.RestSearchAction.lambda$prepareRequest$1(RestSearchAction.java:91) ~[elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.rest.RestRequest.withContentOrSourceParamParserOrNull(RestRequest.java:388) ~[elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.rest.action.search.RestSearchAction.prepareRequest(RestSearchAction.java:90) ~[elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.rest.BaseRestHandler.handleRequest(BaseRestHandler.java:80) ~[elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.rest.RestController.dispatchRequest(RestController.java:240) [elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.rest.RestController.tryAllHandlers(RestController.java:336) [elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.rest.RestController.dispatchRequest(RestController.java:174) [elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.http.netty4.Netty4HttpServerTransport.dispatchRequest(Netty4HttpServerTransport.java:497) [transport-netty4-6.1.3.jar:6.1.3]
+	at org.elasticsearch.http.netty4.Netty4HttpRequestHandler.channelRead0(Netty4HttpRequestHandler.java:80) [transport-netty4-6.1.3.jar:6.1.3]
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:105) [netty-transport-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [netty-transport-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [netty-transport-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [netty-transport-4.1.13.Final.jar:4.1.13.Final]
+	at org.elasticsearch.http.netty4.pipelining.HttpPipeliningHandler.channelRead(HttpPipeliningHandler.java:68) [transport-netty4-6.1.3.jar:6.1.3]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [netty-transport-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [netty-transport-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [netty-transport-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102) [netty-codec-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.handler.codec.MessageToMessageCodec.channelRead(MessageToMessageCodec.java:111) [netty-codec-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [netty-transport-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [netty-transport-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [netty-transport-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102) [netty-codec-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [netty-transport-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [netty-transport-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [netty-transport-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102) [netty-codec-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [netty-transport-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [netty-transport-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [netty-transport-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310) [netty-codec-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284) [netty-codec-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [netty-transport-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [netty-transport-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [netty-transport-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelRead(ChannelInboundHandlerAdapter.java:86) [netty-transport-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [netty-transport-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [netty-transport-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [netty-transport-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1334) [netty-transport-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [netty-transport-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [netty-transport-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:926) [netty-transport-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:134) [netty-transport-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:644) [netty-transport-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:544) [netty-transport-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498) [netty-transport-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:458) [netty-transport-4.1.13.Final.jar:4.1.13.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-common-4.1.13.Final.jar:4.1.13.Final]
+	at java.lang.Thread.run(Thread.java:844) [?:?]
+[2018-02-08T17:13:50,207][INFO ][o.e.n.Node               ] [ioVx7ov] stopping ...
+[2018-02-08T17:13:50,364][WARN ][o.e.i.e.Engine           ] [ioVx7ov] [doctest][0] Failed to close translog
+java.nio.file.NoSuchFileException: C:\Users\Sheirly\Desktop\ES\elasticsearch-6.1.3\data\nodes\0\indices\mLKBx5AHReCQix0Cv05AIA\0\translog\translog.ckp
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at sun.nio.fs.WindowsFileSystemProvider.newFileChannel(WindowsFileSystemProvider.java:116) ~[?:?]
+	at java.nio.channels.FileChannel.open(FileChannel.java:292) ~[?:?]
+	at java.nio.channels.FileChannel.open(FileChannel.java:340) ~[?:?]
+	at org.elasticsearch.index.translog.Checkpoint.write(Checkpoint.java:179) ~[elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.index.translog.TranslogWriter.writeCheckpoint(TranslogWriter.java:408) ~[elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.index.translog.TranslogWriter.syncUpTo(TranslogWriter.java:351) ~[elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.index.translog.TranslogWriter.sync(TranslogWriter.java:238) ~[elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.index.translog.Translog.close(Translog.java:327) ~[elasticsearch-6.1.3.jar:6.1.3]
+	at org.apache.lucene.util.IOUtils.close(IOUtils.java:89) ~[lucene-core-7.1.0.jar:7.1.0 84c90ad2c0218156c840e19a64d72b8a38550659 - ubuntu - 2017-10-13 16:12:42]
+	at org.apache.lucene.util.IOUtils.close(IOUtils.java:76) ~[lucene-core-7.1.0.jar:7.1.0 84c90ad2c0218156c840e19a64d72b8a38550659 - ubuntu - 2017-10-13 16:12:42]
+	at org.elasticsearch.index.engine.InternalEngine.closeNoLock(InternalEngine.java:1801) [elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.index.engine.Engine.close(Engine.java:1393) [elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.index.engine.Engine.flushAndClose(Engine.java:1380) [elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.index.shard.IndexShard.close(IndexShard.java:1186) [elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.index.IndexService.closeShard(IndexService.java:428) [elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.index.IndexService.removeShard(IndexService.java:411) [elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.index.IndexService.close(IndexService.java:272) [elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.indices.IndicesService.removeIndex(IndicesService.java:550) [elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.indices.IndicesService.lambda$doStop$2(IndicesService.java:226) [elasticsearch-6.1.3.jar:6.1.3]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641) [?:?]
+	at java.lang.Thread.run(Thread.java:844) [?:?]
+[2018-02-08T17:13:50,364][WARN ][o.e.i.e.Engine           ] [ioVx7ov] [doctest_folder][0] Failed to close translog
+java.nio.file.NoSuchFileException: C:\Users\Sheirly\Desktop\ES\elasticsearch-6.1.3\data\nodes\0\indices\TZHBTz2RRo-bklNimj_2ew\0\translog\translog.ckp
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at sun.nio.fs.WindowsFileSystemProvider.newFileChannel(WindowsFileSystemProvider.java:116) ~[?:?]
+	at java.nio.channels.FileChannel.open(FileChannel.java:292) ~[?:?]
+	at java.nio.channels.FileChannel.open(FileChannel.java:340) ~[?:?]
+	at org.elasticsearch.index.translog.Checkpoint.write(Checkpoint.java:179) ~[elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.index.translog.TranslogWriter.writeCheckpoint(TranslogWriter.java:408) ~[elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.index.translog.TranslogWriter.syncUpTo(TranslogWriter.java:351) ~[elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.index.translog.TranslogWriter.sync(TranslogWriter.java:238) ~[elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.index.translog.Translog.close(Translog.java:327) ~[elasticsearch-6.1.3.jar:6.1.3]
+	at org.apache.lucene.util.IOUtils.close(IOUtils.java:89) ~[lucene-core-7.1.0.jar:7.1.0 84c90ad2c0218156c840e19a64d72b8a38550659 - ubuntu - 2017-10-13 16:12:42]
+	at org.apache.lucene.util.IOUtils.close(IOUtils.java:76) ~[lucene-core-7.1.0.jar:7.1.0 84c90ad2c0218156c840e19a64d72b8a38550659 - ubuntu - 2017-10-13 16:12:42]
+	at org.elasticsearch.index.engine.InternalEngine.closeNoLock(InternalEngine.java:1801) [elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.index.engine.Engine.close(Engine.java:1393) [elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.index.engine.Engine.flushAndClose(Engine.java:1380) [elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.index.shard.IndexShard.close(IndexShard.java:1186) [elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.index.IndexService.closeShard(IndexService.java:428) [elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.index.IndexService.removeShard(IndexService.java:411) [elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.index.IndexService.close(IndexService.java:272) [elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.indices.IndicesService.removeIndex(IndicesService.java:550) [elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.indices.IndicesService.lambda$doStop$2(IndicesService.java:226) [elasticsearch-6.1.3.jar:6.1.3]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641) [?:?]
+	at java.lang.Thread.run(Thread.java:844) [?:?]
+[2018-02-08T17:13:50,426][WARN ][o.e.i.e.Engine           ] [ioVx7ov] [doctest][1] Failed to close translog
+java.nio.file.NoSuchFileException: C:\Users\Sheirly\Desktop\ES\elasticsearch-6.1.3\data\nodes\0\indices\mLKBx5AHReCQix0Cv05AIA\1\translog\translog.ckp
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at sun.nio.fs.WindowsFileSystemProvider.newFileChannel(WindowsFileSystemProvider.java:116) ~[?:?]
+	at java.nio.channels.FileChannel.open(FileChannel.java:292) ~[?:?]
+	at java.nio.channels.FileChannel.open(FileChannel.java:340) ~[?:?]
+	at org.elasticsearch.index.translog.Checkpoint.write(Checkpoint.java:179) ~[elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.index.translog.TranslogWriter.writeCheckpoint(TranslogWriter.java:408) ~[elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.index.translog.TranslogWriter.syncUpTo(TranslogWriter.java:351) ~[elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.index.translog.TranslogWriter.sync(TranslogWriter.java:238) ~[elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.index.translog.Translog.close(Translog.java:327) ~[elasticsearch-6.1.3.jar:6.1.3]
+	at org.apache.lucene.util.IOUtils.close(IOUtils.java:89) ~[lucene-core-7.1.0.jar:7.1.0 84c90ad2c0218156c840e19a64d72b8a38550659 - ubuntu - 2017-10-13 16:12:42]
+	at org.apache.lucene.util.IOUtils.close(IOUtils.java:76) ~[lucene-core-7.1.0.jar:7.1.0 84c90ad2c0218156c840e19a64d72b8a38550659 - ubuntu - 2017-10-13 16:12:42]
+	at org.elasticsearch.index.engine.InternalEngine.closeNoLock(InternalEngine.java:1801) [elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.index.engine.Engine.close(Engine.java:1393) [elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.index.engine.Engine.flushAndClose(Engine.java:1380) [elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.index.shard.IndexShard.close(IndexShard.java:1186) [elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.index.IndexService.closeShard(IndexService.java:428) [elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.index.IndexService.removeShard(IndexService.java:411) [elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.index.IndexService.close(IndexService.java:272) [elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.indices.IndicesService.removeIndex(IndicesService.java:550) [elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.indices.IndicesService.lambda$doStop$2(IndicesService.java:226) [elasticsearch-6.1.3.jar:6.1.3]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641) [?:?]
+	at java.lang.Thread.run(Thread.java:844) [?:?]
+[2018-02-08T17:13:50,422][WARN ][o.e.i.e.Engine           ] [ioVx7ov] [doctest_folder][1] Failed to close translog
+java.nio.file.NoSuchFileException: C:\Users\Sheirly\Desktop\ES\elasticsearch-6.1.3\data\nodes\0\indices\TZHBTz2RRo-bklNimj_2ew\1\translog\translog.ckp
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at sun.nio.fs.WindowsFileSystemProvider.newFileChannel(WindowsFileSystemProvider.java:116) ~[?:?]
+	at java.nio.channels.FileChannel.open(FileChannel.java:292) ~[?:?]
+	at java.nio.channels.FileChannel.open(FileChannel.java:340) ~[?:?]
+	at org.elasticsearch.index.translog.Checkpoint.write(Checkpoint.java:179) ~[elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.index.translog.TranslogWriter.writeCheckpoint(TranslogWriter.java:408) ~[elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.index.translog.TranslogWriter.syncUpTo(TranslogWriter.java:351) ~[elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.index.translog.TranslogWriter.sync(TranslogWriter.java:238) ~[elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.index.translog.Translog.close(Translog.java:327) ~[elasticsearch-6.1.3.jar:6.1.3]
+	at org.apache.lucene.util.IOUtils.close(IOUtils.java:89) ~[lucene-core-7.1.0.jar:7.1.0 84c90ad2c0218156c840e19a64d72b8a38550659 - ubuntu - 2017-10-13 16:12:42]
+	at org.apache.lucene.util.IOUtils.close(IOUtils.java:76) ~[lucene-core-7.1.0.jar:7.1.0 84c90ad2c0218156c840e19a64d72b8a38550659 - ubuntu - 2017-10-13 16:12:42]
+	at org.elasticsearch.index.engine.InternalEngine.closeNoLock(InternalEngine.java:1801) [elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.index.engine.Engine.close(Engine.java:1393) [elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.index.engine.Engine.flushAndClose(Engine.java:1380) [elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.index.shard.IndexShard.close(IndexShard.java:1186) [elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.index.IndexService.closeShard(IndexService.java:428) [elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.index.IndexService.removeShard(IndexService.java:411) [elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.index.IndexService.close(IndexService.java:272) [elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.indices.IndicesService.removeIndex(IndicesService.java:550) [elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.indices.IndicesService.lambda$doStop$2(IndicesService.java:226) [elasticsearch-6.1.3.jar:6.1.3]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641) [?:?]
+	at java.lang.Thread.run(Thread.java:844) [?:?]
+[2018-02-08T17:13:50,472][WARN ][o.e.i.e.Engine           ] [ioVx7ov] [doctest][2] Failed to close translog
+java.nio.file.NoSuchFileException: C:\Users\Sheirly\Desktop\ES\elasticsearch-6.1.3\data\nodes\0\indices\mLKBx5AHReCQix0Cv05AIA\2\translog\translog.ckp
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at sun.nio.fs.WindowsFileSystemProvider.newFileChannel(WindowsFileSystemProvider.java:116) ~[?:?]
+	at java.nio.channels.FileChannel.open(FileChannel.java:292) ~[?:?]
+	at java.nio.channels.FileChannel.open(FileChannel.java:340) ~[?:?]
+	at org.elasticsearch.index.translog.Checkpoint.write(Checkpoint.java:179) ~[elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.index.translog.TranslogWriter.writeCheckpoint(TranslogWriter.java:408) ~[elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.index.translog.TranslogWriter.syncUpTo(TranslogWriter.java:351) ~[elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.index.translog.TranslogWriter.sync(TranslogWriter.java:238) ~[elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.index.translog.Translog.close(Translog.java:327) ~[elasticsearch-6.1.3.jar:6.1.3]
+	at org.apache.lucene.util.IOUtils.close(IOUtils.java:89) ~[lucene-core-7.1.0.jar:7.1.0 84c90ad2c0218156c840e19a64d72b8a38550659 - ubuntu - 2017-10-13 16:12:42]
+	at org.apache.lucene.util.IOUtils.close(IOUtils.java:76) ~[lucene-core-7.1.0.jar:7.1.0 84c90ad2c0218156c840e19a64d72b8a38550659 - ubuntu - 2017-10-13 16:12:42]
+	at org.elasticsearch.index.engine.InternalEngine.closeNoLock(InternalEngine.java:1801) [elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.index.engine.Engine.close(Engine.java:1393) [elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.index.engine.Engine.flushAndClose(Engine.java:1380) [elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.index.shard.IndexShard.close(IndexShard.java:1186) [elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.index.IndexService.closeShard(IndexService.java:428) [elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.index.IndexService.removeShard(IndexService.java:411) [elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.index.IndexService.close(IndexService.java:272) [elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.indices.IndicesService.removeIndex(IndicesService.java:550) [elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.indices.IndicesService.lambda$doStop$2(IndicesService.java:226) [elasticsearch-6.1.3.jar:6.1.3]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641) [?:?]
+	at java.lang.Thread.run(Thread.java:844) [?:?]
+[2018-02-08T17:13:50,472][WARN ][o.e.i.e.Engine           ] [ioVx7ov] [doctest_folder][2] Failed to close translog
+java.nio.file.NoSuchFileException: C:\Users\Sheirly\Desktop\ES\elasticsearch-6.1.3\data\nodes\0\indices\TZHBTz2RRo-bklNimj_2ew\2\translog\translog.ckp
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at sun.nio.fs.WindowsFileSystemProvider.newFileChannel(WindowsFileSystemProvider.java:116) ~[?:?]
+	at java.nio.channels.FileChannel.open(FileChannel.java:292) ~[?:?]
+	at java.nio.channels.FileChannel.open(FileChannel.java:340) ~[?:?]
+	at org.elasticsearch.index.translog.Checkpoint.write(Checkpoint.java:179) ~[elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.index.translog.TranslogWriter.writeCheckpoint(TranslogWriter.java:408) ~[elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.index.translog.TranslogWriter.syncUpTo(TranslogWriter.java:351) ~[elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.index.translog.TranslogWriter.sync(TranslogWriter.java:238) ~[elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.index.translog.Translog.close(Translog.java:327) ~[elasticsearch-6.1.3.jar:6.1.3]
+	at org.apache.lucene.util.IOUtils.close(IOUtils.java:89) ~[lucene-core-7.1.0.jar:7.1.0 84c90ad2c0218156c840e19a64d72b8a38550659 - ubuntu - 2017-10-13 16:12:42]
+	at org.apache.lucene.util.IOUtils.close(IOUtils.java:76) ~[lucene-core-7.1.0.jar:7.1.0 84c90ad2c0218156c840e19a64d72b8a38550659 - ubuntu - 2017-10-13 16:12:42]
+	at org.elasticsearch.index.engine.InternalEngine.closeNoLock(InternalEngine.java:1801) [elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.index.engine.Engine.close(Engine.java:1393) [elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.index.engine.Engine.flushAndClose(Engine.java:1380) [elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.index.shard.IndexShard.close(IndexShard.java:1186) [elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.index.IndexService.closeShard(IndexService.java:428) [elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.index.IndexService.removeShard(IndexService.java:411) [elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.index.IndexService.close(IndexService.java:272) [elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.indices.IndicesService.removeIndex(IndicesService.java:550) [elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.indices.IndicesService.lambda$doStop$2(IndicesService.java:226) [elasticsearch-6.1.3.jar:6.1.3]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641) [?:?]
+	at java.lang.Thread.run(Thread.java:844) [?:?]
+[2018-02-08T17:13:50,484][WARN ][o.e.i.e.Engine           ] [ioVx7ov] [doctest][3] Failed to close translog
+java.nio.file.NoSuchFileException: C:\Users\Sheirly\Desktop\ES\elasticsearch-6.1.3\data\nodes\0\indices\mLKBx5AHReCQix0Cv05AIA\3\translog\translog.ckp
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at sun.nio.fs.WindowsFileSystemProvider.newFileChannel(WindowsFileSystemProvider.java:116) ~[?:?]
+	at java.nio.channels.FileChannel.open(FileChannel.java:292) ~[?:?]
+	at java.nio.channels.FileChannel.open(FileChannel.java:340) ~[?:?]
+	at org.elasticsearch.index.translog.Checkpoint.write(Checkpoint.java:179) ~[elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.index.translog.TranslogWriter.writeCheckpoint(TranslogWriter.java:408) ~[elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.index.translog.TranslogWriter.syncUpTo(TranslogWriter.java:351) ~[elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.index.translog.TranslogWriter.sync(TranslogWriter.java:238) ~[elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.index.translog.Translog.close(Translog.java:327) ~[elasticsearch-6.1.3.jar:6.1.3]
+	at org.apache.lucene.util.IOUtils.close(IOUtils.java:89) ~[lucene-core-7.1.0.jar:7.1.0 84c90ad2c0218156c840e19a64d72b8a38550659 - ubuntu - 2017-10-13 16:12:42]
+	at org.apache.lucene.util.IOUtils.close(IOUtils.java:76) ~[lucene-core-7.1.0.jar:7.1.0 84c90ad2c0218156c840e19a64d72b8a38550659 - ubuntu - 2017-10-13 16:12:42]
+	at org.elasticsearch.index.engine.InternalEngine.closeNoLock(InternalEngine.java:1801) [elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.index.engine.Engine.close(Engine.java:1393) [elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.index.engine.Engine.flushAndClose(Engine.java:1380) [elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.index.shard.IndexShard.close(IndexShard.java:1186) [elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.index.IndexService.closeShard(IndexService.java:428) [elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.index.IndexService.removeShard(IndexService.java:411) [elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.index.IndexService.close(IndexService.java:272) [elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.indices.IndicesService.removeIndex(IndicesService.java:550) [elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.indices.IndicesService.lambda$doStop$2(IndicesService.java:226) [elasticsearch-6.1.3.jar:6.1.3]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641) [?:?]
+	at java.lang.Thread.run(Thread.java:844) [?:?]
+[2018-02-08T17:13:50,492][WARN ][o.e.i.e.Engine           ] [ioVx7ov] [doctest_folder][3] Failed to close translog
+java.nio.file.NoSuchFileException: C:\Users\Sheirly\Desktop\ES\elasticsearch-6.1.3\data\nodes\0\indices\TZHBTz2RRo-bklNimj_2ew\3\translog\translog.ckp
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at sun.nio.fs.WindowsFileSystemProvider.newFileChannel(WindowsFileSystemProvider.java:116) ~[?:?]
+	at java.nio.channels.FileChannel.open(FileChannel.java:292) ~[?:?]
+	at java.nio.channels.FileChannel.open(FileChannel.java:340) ~[?:?]
+	at org.elasticsearch.index.translog.Checkpoint.write(Checkpoint.java:179) ~[elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.index.translog.TranslogWriter.writeCheckpoint(TranslogWriter.java:408) ~[elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.index.translog.TranslogWriter.syncUpTo(TranslogWriter.java:351) ~[elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.index.translog.TranslogWriter.sync(TranslogWriter.java:238) ~[elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.index.translog.Translog.close(Translog.java:327) ~[elasticsearch-6.1.3.jar:6.1.3]
+	at org.apache.lucene.util.IOUtils.close(IOUtils.java:89) ~[lucene-core-7.1.0.jar:7.1.0 84c90ad2c0218156c840e19a64d72b8a38550659 - ubuntu - 2017-10-13 16:12:42]
+	at org.apache.lucene.util.IOUtils.close(IOUtils.java:76) ~[lucene-core-7.1.0.jar:7.1.0 84c90ad2c0218156c840e19a64d72b8a38550659 - ubuntu - 2017-10-13 16:12:42]
+	at org.elasticsearch.index.engine.InternalEngine.closeNoLock(InternalEngine.java:1801) [elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.index.engine.Engine.close(Engine.java:1393) [elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.index.engine.Engine.flushAndClose(Engine.java:1380) [elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.index.shard.IndexShard.close(IndexShard.java:1186) [elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.index.IndexService.closeShard(IndexService.java:428) [elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.index.IndexService.removeShard(IndexService.java:411) [elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.index.IndexService.close(IndexService.java:272) [elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.indices.IndicesService.removeIndex(IndicesService.java:550) [elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.indices.IndicesService.lambda$doStop$2(IndicesService.java:226) [elasticsearch-6.1.3.jar:6.1.3]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641) [?:?]
+	at java.lang.Thread.run(Thread.java:844) [?:?]
+[2018-02-08T17:13:50,500][WARN ][o.e.i.e.Engine           ] [ioVx7ov] [doctest][4] Failed to close translog
+java.nio.file.NoSuchFileException: C:\Users\Sheirly\Desktop\ES\elasticsearch-6.1.3\data\nodes\0\indices\mLKBx5AHReCQix0Cv05AIA\4\translog\translog.ckp
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at sun.nio.fs.WindowsFileSystemProvider.newFileChannel(WindowsFileSystemProvider.java:116) ~[?:?]
+	at java.nio.channels.FileChannel.open(FileChannel.java:292) ~[?:?]
+	at java.nio.channels.FileChannel.open(FileChannel.java:340) ~[?:?]
+	at org.elasticsearch.index.translog.Checkpoint.write(Checkpoint.java:179) ~[elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.index.translog.TranslogWriter.writeCheckpoint(TranslogWriter.java:408) ~[elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.index.translog.TranslogWriter.syncUpTo(TranslogWriter.java:351) ~[elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.index.translog.TranslogWriter.sync(TranslogWriter.java:238) ~[elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.index.translog.Translog.close(Translog.java:327) ~[elasticsearch-6.1.3.jar:6.1.3]
+	at org.apache.lucene.util.IOUtils.close(IOUtils.java:89) ~[lucene-core-7.1.0.jar:7.1.0 84c90ad2c0218156c840e19a64d72b8a38550659 - ubuntu - 2017-10-13 16:12:42]
+	at org.apache.lucene.util.IOUtils.close(IOUtils.java:76) ~[lucene-core-7.1.0.jar:7.1.0 84c90ad2c0218156c840e19a64d72b8a38550659 - ubuntu - 2017-10-13 16:12:42]
+	at org.elasticsearch.index.engine.InternalEngine.closeNoLock(InternalEngine.java:1801) [elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.index.engine.Engine.close(Engine.java:1393) [elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.index.engine.Engine.flushAndClose(Engine.java:1380) [elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.index.shard.IndexShard.close(IndexShard.java:1186) [elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.index.IndexService.closeShard(IndexService.java:428) [elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.index.IndexService.removeShard(IndexService.java:411) [elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.index.IndexService.close(IndexService.java:272) [elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.indices.IndicesService.removeIndex(IndicesService.java:550) [elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.indices.IndicesService.lambda$doStop$2(IndicesService.java:226) [elasticsearch-6.1.3.jar:6.1.3]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641) [?:?]
+	at java.lang.Thread.run(Thread.java:844) [?:?]
+[2018-02-08T17:13:50,504][WARN ][o.e.i.e.Engine           ] [ioVx7ov] [doctest_folder][4] Failed to close translog
+java.nio.file.NoSuchFileException: C:\Users\Sheirly\Desktop\ES\elasticsearch-6.1.3\data\nodes\0\indices\TZHBTz2RRo-bklNimj_2ew\4\translog\translog.ckp
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at sun.nio.fs.WindowsFileSystemProvider.newFileChannel(WindowsFileSystemProvider.java:116) ~[?:?]
+	at java.nio.channels.FileChannel.open(FileChannel.java:292) ~[?:?]
+	at java.nio.channels.FileChannel.open(FileChannel.java:340) ~[?:?]
+	at org.elasticsearch.index.translog.Checkpoint.write(Checkpoint.java:179) ~[elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.index.translog.TranslogWriter.writeCheckpoint(TranslogWriter.java:408) ~[elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.index.translog.TranslogWriter.syncUpTo(TranslogWriter.java:351) ~[elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.index.translog.TranslogWriter.sync(TranslogWriter.java:238) ~[elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.index.translog.Translog.close(Translog.java:327) ~[elasticsearch-6.1.3.jar:6.1.3]
+	at org.apache.lucene.util.IOUtils.close(IOUtils.java:89) ~[lucene-core-7.1.0.jar:7.1.0 84c90ad2c0218156c840e19a64d72b8a38550659 - ubuntu - 2017-10-13 16:12:42]
+	at org.apache.lucene.util.IOUtils.close(IOUtils.java:76) ~[lucene-core-7.1.0.jar:7.1.0 84c90ad2c0218156c840e19a64d72b8a38550659 - ubuntu - 2017-10-13 16:12:42]
+	at org.elasticsearch.index.engine.InternalEngine.closeNoLock(InternalEngine.java:1801) [elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.index.engine.Engine.close(Engine.java:1393) [elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.index.engine.Engine.flushAndClose(Engine.java:1380) [elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.index.shard.IndexShard.close(IndexShard.java:1186) [elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.index.IndexService.closeShard(IndexService.java:428) [elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.index.IndexService.removeShard(IndexService.java:411) [elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.index.IndexService.close(IndexService.java:272) [elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.indices.IndicesService.removeIndex(IndicesService.java:550) [elasticsearch-6.1.3.jar:6.1.3]
+	at org.elasticsearch.indices.IndicesService.lambda$doStop$2(IndicesService.java:226) [elasticsearch-6.1.3.jar:6.1.3]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641) [?:?]
+	at java.lang.Thread.run(Thread.java:844) [?:?]
+[2018-02-08T17:13:50,539][INFO ][o.e.n.Node               ] [ioVx7ov] stopped
+[2018-02-08T17:13:50,539][INFO ][o.e.n.Node               ] [ioVx7ov] closing ...
+[2018-02-08T17:13:50,617][INFO ][o.e.n.Node               ] [ioVx7ov] closed

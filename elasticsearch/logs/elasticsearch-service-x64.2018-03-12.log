@@ -1,0 +1,9 @@
+[2018-03-12 19:40:48] [info]  [ 3464] Commons Daemon procrun (1.0.15.0 64-bit) started
+[2018-03-12 19:40:48] [info]  [ 3464] Running 'elasticsearch-service-x64' Service...
+[2018-03-12 19:40:48] [info]  [ 3920] Starting service...
+[2018-03-12 19:40:51] [info]  [ 3920] Service started in 2578 ms.
+[2018-03-17 00:00:59] [info]  [ 8212] Console SHUTDOWN event signaled
+[2018-03-17 00:00:59] [info]  [ 8212] Stopping service...
+[2018-03-17 00:01:00] [info]  [ 8212] Service stop thread completed.
+[2018-03-17 00:01:01] [info]  [ 3464] Run service finished.
+[2018-03-17 00:01:01] [info]  [ 3464] Commons Daemon procrun finished

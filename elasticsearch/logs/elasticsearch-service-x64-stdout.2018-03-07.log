@@ -1,0 +1,36 @@
+
+2018-03-07 09:10:07 Commons Daemon procrun stdout initialized
+[2018-03-07T09:10:17,364][INFO ][o.e.n.Node               ] [] initializing ...
+[2018-03-07T09:10:17,536][INFO ][o.e.e.NodeEnvironment    ] [15pjBzd] using [1] data paths, mounts [[(C:)]], net usable_space [124.4gb], net total_space [237.7gb], types [NTFS]
+[2018-03-07T09:10:17,552][INFO ][o.e.e.NodeEnvironment    ] [15pjBzd] heap size [990.7mb], compressed ordinary object pointers [true]
+[2018-03-07T09:10:17,677][INFO ][o.e.n.Node               ] node name [15pjBzd] derived from node ID [15pjBzdIRV6eLjW4oBjpfw]; set [node.name] to override
+[2018-03-07T09:10:17,677][INFO ][o.e.n.Node               ] version[6.1.3], pid[3812], build[af51318/2018-01-26T18:22:55.523Z], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/9.0.4/9.0.4+11]
+[2018-03-07T09:10:17,677][INFO ][o.e.n.Node               ] JVM arguments [-Xms1g, -Xmx1g, -XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -XX:-OmitStackTraceInFastThrow, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -XX:+HeapDumpOnOutOfMemoryError, -Delasticsearch, -Des.path.home=C:\Users\Sheirly\Desktop\ES\elasticsearch-6.1.3, -Des.path.conf=C:\Users\Sheirly\Desktop\ES\elasticsearch-6.1.3\config, exit, -Xms1024m, -Xmx1024m, -Xss1024k]
+[2018-03-07T09:10:21,974][INFO ][o.e.p.PluginsService     ] [15pjBzd] loaded module [aggs-matrix-stats]
+[2018-03-07T09:10:21,974][INFO ][o.e.p.PluginsService     ] [15pjBzd] loaded module [analysis-common]
+[2018-03-07T09:10:21,974][INFO ][o.e.p.PluginsService     ] [15pjBzd] loaded module [ingest-common]
+[2018-03-07T09:10:21,974][INFO ][o.e.p.PluginsService     ] [15pjBzd] loaded module [lang-expression]
+[2018-03-07T09:10:21,974][INFO ][o.e.p.PluginsService     ] [15pjBzd] loaded module [lang-mustache]
+[2018-03-07T09:10:21,974][INFO ][o.e.p.PluginsService     ] [15pjBzd] loaded module [lang-painless]
+[2018-03-07T09:10:21,974][INFO ][o.e.p.PluginsService     ] [15pjBzd] loaded module [mapper-extras]
+[2018-03-07T09:10:21,974][INFO ][o.e.p.PluginsService     ] [15pjBzd] loaded module [parent-join]
+[2018-03-07T09:10:21,974][INFO ][o.e.p.PluginsService     ] [15pjBzd] loaded module [percolator]
+[2018-03-07T09:10:21,974][INFO ][o.e.p.PluginsService     ] [15pjBzd] loaded module [reindex]
+[2018-03-07T09:10:21,974][INFO ][o.e.p.PluginsService     ] [15pjBzd] loaded module [repository-url]
+[2018-03-07T09:10:21,974][INFO ][o.e.p.PluginsService     ] [15pjBzd] loaded module [transport-netty4]
+[2018-03-07T09:10:21,974][INFO ][o.e.p.PluginsService     ] [15pjBzd] loaded module [tribe]
+[2018-03-07T09:10:21,974][INFO ][o.e.p.PluginsService     ] [15pjBzd] no plugins loaded
+[2018-03-07T09:10:25,521][INFO ][o.e.d.DiscoveryModule    ] [15pjBzd] using discovery type [zen]
+[2018-03-07T09:10:26,661][INFO ][o.e.n.Node               ] initialized
+[2018-03-07T09:10:26,661][INFO ][o.e.n.Node               ] [15pjBzd] starting ...
+[2018-03-07T09:10:27,240][INFO ][o.e.t.TransportService   ] [15pjBzd] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2018-03-07T09:10:30,349][INFO ][o.e.c.s.MasterService    ] [15pjBzd] zen-disco-elected-as-master ([0] nodes joined), reason: new_master {15pjBzd}{15pjBzdIRV6eLjW4oBjpfw}{MxoVnBg8SP6PFfMXVa1zqA}{127.0.0.1}{127.0.0.1:9300}
+[2018-03-07T09:10:30,365][INFO ][o.e.c.s.ClusterApplierService] [15pjBzd] new_master {15pjBzd}{15pjBzdIRV6eLjW4oBjpfw}{MxoVnBg8SP6PFfMXVa1zqA}{127.0.0.1}{127.0.0.1:9300}, reason: apply cluster state (from master [master {15pjBzd}{15pjBzdIRV6eLjW4oBjpfw}{MxoVnBg8SP6PFfMXVa1zqA}{127.0.0.1}{127.0.0.1:9300} committed version [1] source [zen-disco-elected-as-master ([0] nodes joined)]])
+[2018-03-07T09:10:30,958][INFO ][o.e.g.GatewayService     ] [15pjBzd] recovered [3] indices into cluster_state
+[2018-03-07T09:10:31,427][INFO ][o.e.h.n.Netty4HttpServerTransport] [15pjBzd] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2018-03-07T09:10:31,427][INFO ][o.e.n.Node               ] [15pjBzd] started
+[2018-03-07T09:10:32,068][INFO ][o.e.c.r.a.AllocationService] [15pjBzd] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[test_02][4], [.kibana][0]] ...]).
+[2018-03-08T11:39:07,529][INFO ][o.e.n.Node               ] [15pjBzd] stopping ...
+[2018-03-08T11:39:07,732][INFO ][o.e.n.Node               ] [15pjBzd] stopped
+[2018-03-08T11:39:07,732][INFO ][o.e.n.Node               ] [15pjBzd] closing ...
+[2018-03-08T11:39:07,779][INFO ][o.e.n.Node               ] [15pjBzd] closed

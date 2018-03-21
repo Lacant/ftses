@@ -1,0 +1,193 @@
+[2018-02-06 17:12:40] [info]  [ 1112] Commons Daemon procrun (1.0.15.0 64-bit) started
+[2018-02-06 17:12:40] [info]  [ 1112] Service elasticsearch-service-x64 name Elasticsearch 6.1.3 (elasticsearch-service-x64)
+[2018-02-06 17:12:40] [info]  [ 1112] Service 'elasticsearch-service-x64' installed
+[2018-02-06 17:12:40] [info]  [ 1112] Commons Daemon procrun finished
+[2018-02-06 17:13:18] [info]  [10920] Commons Daemon procrun (1.0.15.0 64-bit) started
+[2018-02-06 17:13:18] [info]  [10920] Running 'elasticsearch-service-x64' Service...
+[2018-02-06 17:13:18] [info]  [ 6676] Starting service...
+[2018-02-06 17:13:18] [error] [ 6676] Failed creating java %JAVA_HOME%\bin\server\jvm.dll
+[2018-02-06 17:13:18] [error] [ 6676] The system cannot find the path specified.
+[2018-02-06 17:13:18] [error] [ 6676] ServiceStart returned 1
+[2018-02-06 17:13:18] [error] [ 6676] The system cannot find the path specified.
+[2018-02-06 17:13:18] [info]  [10920] Run service finished.
+[2018-02-06 17:13:18] [info]  [10920] Commons Daemon procrun finished
+[2018-02-06 18:38:53] [info]  [ 9664] Commons Daemon procrun (1.0.15.0 64-bit) started
+[2018-02-06 18:38:53] [info]  [ 9664] Running 'elasticsearch-service-x64' Service...
+[2018-02-06 18:38:53] [info]  [ 7016] Starting service...
+[2018-02-06 18:38:53] [error] [ 7016] Failed creating java %JAVA_HOME%\bin\server\jvm.dll
+[2018-02-06 18:38:53] [error] [ 7016] The system cannot find the path specified.
+[2018-02-06 18:38:53] [error] [ 7016] ServiceStart returned 1
+[2018-02-06 18:38:53] [error] [ 7016] The system cannot find the path specified.
+[2018-02-06 18:38:54] [info]  [ 9664] Run service finished.
+[2018-02-06 18:38:54] [info]  [ 9664] Commons Daemon procrun finished
+[2018-02-06 18:39:58] [info]  [ 5680] Commons Daemon procrun (1.0.15.0 64-bit) started
+[2018-02-06 18:39:58] [info]  [ 5680] Running 'elasticsearch-service-x64' Service...
+[2018-02-06 18:39:58] [info]  [10532] Starting service...
+[2018-02-06 18:39:58] [error] [10532] Failed creating java %JAVA_HOME%\bin\server\jvm.dll
+[2018-02-06 18:39:58] [error] [10532] The system cannot find the path specified.
+[2018-02-06 18:39:58] [error] [10532] ServiceStart returned 1
+[2018-02-06 18:39:58] [error] [10532] The system cannot find the path specified.
+[2018-02-06 18:39:58] [info]  [ 5680] Run service finished.
+[2018-02-06 18:39:58] [info]  [ 5680] Commons Daemon procrun finished
+[2018-02-06 18:40:09] [info]  [ 5676] Commons Daemon procrun (1.0.15.0 64-bit) started
+[2018-02-06 18:40:09] [info]  [ 5676] Running 'elasticsearch-service-x64' Service...
+[2018-02-06 18:40:09] [info]  [ 8876] Starting service...
+[2018-02-06 18:40:09] [error] [ 8876] Failed creating java %JAVA_HOME%\bin\server\jvm.dll
+[2018-02-06 18:40:09] [error] [ 8876] The system cannot find the path specified.
+[2018-02-06 18:40:09] [error] [ 8876] ServiceStart returned 1
+[2018-02-06 18:40:09] [error] [ 8876] The system cannot find the path specified.
+[2018-02-06 18:40:09] [info]  [ 5676] Run service finished.
+[2018-02-06 18:40:09] [info]  [ 5676] Commons Daemon procrun finished
+[2018-02-06 19:04:19] [info]  [ 9724] Commons Daemon procrun (1.0.15.0 64-bit) started
+[2018-02-06 19:04:19] [info]  [ 9724] Running 'elasticsearch-service-x64' Service...
+[2018-02-06 19:04:19] [info]  [10392] Starting service...
+[2018-02-06 19:04:19] [error] [10392] Failed creating java %JAVA_HOME%\bin\server\jvm.dll
+[2018-02-06 19:04:19] [error] [10392] The system cannot find the path specified.
+[2018-02-06 19:04:19] [error] [10392] ServiceStart returned 1
+[2018-02-06 19:04:19] [error] [10392] The system cannot find the path specified.
+[2018-02-06 19:04:19] [info]  [ 9724] Run service finished.
+[2018-02-06 19:04:19] [info]  [ 9724] Commons Daemon procrun finished
+[2018-02-06 19:09:14] [info]  [ 8532] Commons Daemon procrun (1.0.15.0 64-bit) started
+[2018-02-06 19:09:14] [info]  [ 8532] Debugging 'elasticsearch-service-x64' service...
+[2018-02-06 19:09:14] [info]  [ 8532] Starting service...
+[2018-02-06 19:09:16] [info]  [ 8532] Service started in 2219 ms.
+[2018-02-06 19:27:32] [info]  [ 4504] Commons Daemon procrun (1.0.15.0 64-bit) started
+[2018-02-06 19:27:32] [info]  [ 4504] Deleting service...
+[2018-02-06 19:27:32] [info]  [ 4504] Delete service finished.
+[2018-02-06 19:27:32] [info]  [ 4504] Commons Daemon procrun finished
+[2018-02-06 20:34:20] [info]  [ 1168] Commons Daemon procrun (1.0.15.0 64-bit) started
+[2018-02-06 20:34:20] [info]  [ 1168] Service elasticsearch-service-x64 name Elasticsearch 6.1.3 (elasticsearch-service-x64)
+[2018-02-06 20:34:20] [info]  [ 1168] Service 'elasticsearch-service-x64' installed
+[2018-02-06 20:34:20] [info]  [ 1168] Commons Daemon procrun finished
+[2018-02-06 20:34:48] [info]  [ 8128] Commons Daemon procrun (1.0.15.0 64-bit) started
+[2018-02-06 20:34:48] [info]  [ 8128] Running 'elasticsearch-service-x64' Service...
+[2018-02-06 20:34:48] [info]  [ 9320] Starting service...
+[2018-02-06 20:34:48] [error] [ 9320] %1 is not a valid Win32 application.
+[2018-02-06 20:34:48] [error] [ 9320] Failed creating java C:\Program Files (x86)\Java\jdk1.8.0_144\jre\bin\server\jvm.dll
+[2018-02-06 20:34:48] [error] [ 9320] %1 is not a valid Win32 application.
+[2018-02-06 20:34:48] [error] [ 9320] ServiceStart returned 1
+[2018-02-06 20:34:48] [error] [ 9320] %1 is not a valid Win32 application.
+[2018-02-06 20:34:48] [info]  [ 8128] Run service finished.
+[2018-02-06 20:34:48] [info]  [ 8128] Commons Daemon procrun finished
+[2018-02-06 20:35:10] [info]  [ 8516] Commons Daemon procrun (1.0.15.0 64-bit) started
+[2018-02-06 20:35:10] [info]  [ 8516] Running 'elasticsearch-service-x64' Service...
+[2018-02-06 20:35:10] [info]  [ 9384] Starting service...
+[2018-02-06 20:35:10] [error] [ 9384] %1 is not a valid Win32 application.
+[2018-02-06 20:35:10] [error] [ 9384] Failed creating java C:\Program Files (x86)\Java\jdk1.8.0_144\jre\bin\server\jvm.dll
+[2018-02-06 20:35:10] [error] [ 9384] %1 is not a valid Win32 application.
+[2018-02-06 20:35:10] [error] [ 9384] ServiceStart returned 1
+[2018-02-06 20:35:10] [error] [ 9384] %1 is not a valid Win32 application.
+[2018-02-06 20:35:10] [info]  [ 8516] Run service finished.
+[2018-02-06 20:35:10] [info]  [ 8516] Commons Daemon procrun finished
+[2018-02-06 20:36:15] [info]  [ 3736] Commons Daemon procrun (1.0.15.0 64-bit) started
+[2018-02-06 20:36:15] [info]  [ 3736] Running 'elasticsearch-service-x64' Service...
+[2018-02-06 20:36:15] [info]  [ 4376] Starting service...
+[2018-02-06 20:36:15] [error] [ 4376] %1 is not a valid Win32 application.
+[2018-02-06 20:36:15] [error] [ 4376] Failed creating java C:\Program Files (x86)\Java\jdk1.8.0_144\jre\bin\server\jvm.dll
+[2018-02-06 20:36:15] [error] [ 4376] %1 is not a valid Win32 application.
+[2018-02-06 20:36:15] [error] [ 4376] ServiceStart returned 1
+[2018-02-06 20:36:16] [error] [ 4376] %1 is not a valid Win32 application.
+[2018-02-06 20:36:16] [info]  [ 3736] Run service finished.
+[2018-02-06 20:36:16] [info]  [ 3736] Commons Daemon procrun finished
+[2018-02-06 20:36:49] [info]  [ 7280] Commons Daemon procrun (1.0.15.0 64-bit) started
+[2018-02-06 20:36:49] [info]  [ 7280] Running 'elasticsearch-service-x64' Service...
+[2018-02-06 20:36:49] [info]  [10040] Starting service...
+[2018-02-06 20:36:49] [error] [10040] %1 is not a valid Win32 application.
+[2018-02-06 20:36:49] [error] [10040] Failed creating java C:\Program Files (x86)\Java\jdk1.8.0_144\jre\bin\server\jvm.dll
+[2018-02-06 20:36:49] [error] [10040] %1 is not a valid Win32 application.
+[2018-02-06 20:36:49] [error] [10040] ServiceStart returned 1
+[2018-02-06 20:36:49] [error] [10040] %1 is not a valid Win32 application.
+[2018-02-06 20:36:49] [info]  [ 7280] Run service finished.
+[2018-02-06 20:36:49] [info]  [ 7280] Commons Daemon procrun finished
+[2018-02-06 20:37:58] [info]  [ 2168] Commons Daemon procrun (1.0.15.0 64-bit) started
+[2018-02-06 20:37:58] [info]  [ 2168] Deleting service...
+[2018-02-06 20:37:58] [info]  [ 2168] Delete service finished.
+[2018-02-06 20:37:58] [info]  [ 2168] Commons Daemon procrun finished
+[2018-02-06 21:28:51] [info]  [ 8436] Commons Daemon procrun (1.0.15.0 64-bit) started
+[2018-02-06 21:28:52] [info]  [ 8436] Service elasticsearch-service-x64 name Elasticsearch 6.1.3 (elasticsearch-service-x64)
+[2018-02-06 21:28:52] [info]  [ 8436] Service 'elasticsearch-service-x64' installed
+[2018-02-06 21:28:52] [info]  [ 8436] Commons Daemon procrun finished
+[2018-02-06 21:29:10] [info]  [ 8408] Commons Daemon procrun (1.0.15.0 64-bit) started
+[2018-02-06 21:29:10] [info]  [ 8408] Running 'elasticsearch-service-x64' Service...
+[2018-02-06 21:29:10] [info]  [ 5552] Starting service...
+[2018-02-06 21:29:10] [error] [ 5552] %1 is not a valid Win32 application.
+[2018-02-06 21:29:10] [error] [ 5552] Failed creating java C:\Program Files (x86)\Java\jdk1.8.0_144\jre\bin\server\jvm.dll
+[2018-02-06 21:29:10] [error] [ 5552] %1 is not a valid Win32 application.
+[2018-02-06 21:29:10] [error] [ 5552] ServiceStart returned 1
+[2018-02-06 21:29:10] [error] [ 5552] %1 is not a valid Win32 application.
+[2018-02-06 21:29:10] [info]  [ 8408] Run service finished.
+[2018-02-06 21:29:10] [info]  [ 8408] Commons Daemon procrun finished
+[2018-02-06 21:29:21] [info]  [ 4452] Commons Daemon procrun (1.0.15.0 64-bit) started
+[2018-02-06 21:29:21] [info]  [ 4452] Running 'elasticsearch-service-x64' Service...
+[2018-02-06 21:29:21] [info]  [  808] Starting service...
+[2018-02-06 21:29:21] [error] [  808] %1 is not a valid Win32 application.
+[2018-02-06 21:29:21] [error] [  808] Failed creating java C:\Program Files (x86)\Java\jdk1.8.0_144\jre\bin\server\jvm.dll
+[2018-02-06 21:29:21] [error] [  808] %1 is not a valid Win32 application.
+[2018-02-06 21:29:21] [error] [  808] ServiceStart returned 1
+[2018-02-06 21:29:21] [error] [  808] %1 is not a valid Win32 application.
+[2018-02-06 21:29:21] [info]  [ 4452] Run service finished.
+[2018-02-06 21:29:21] [info]  [ 4452] Commons Daemon procrun finished
+[2018-02-06 21:29:47] [info]  [ 4740] Commons Daemon procrun (1.0.15.0 64-bit) started
+[2018-02-06 21:29:47] [info]  [ 4740] Running 'elasticsearch-service-x64' Service...
+[2018-02-06 21:29:47] [info]  [ 4016] Starting service...
+[2018-02-06 21:29:47] [error] [ 4016] %1 is not a valid Win32 application.
+[2018-02-06 21:29:47] [error] [ 4016] Failed creating java C:\Program Files (x86)\Java\jdk1.8.0_144\jre\bin\server\jvm.dll
+[2018-02-06 21:29:47] [error] [ 4016] %1 is not a valid Win32 application.
+[2018-02-06 21:29:47] [error] [ 4016] ServiceStart returned 1
+[2018-02-06 21:29:47] [error] [ 4016] %1 is not a valid Win32 application.
+[2018-02-06 21:29:47] [info]  [ 4740] Run service finished.
+[2018-02-06 21:29:47] [info]  [ 4740] Commons Daemon procrun finished
+[2018-02-06 21:29:59] [info]  [ 8884] Commons Daemon procrun (1.0.15.0 64-bit) started
+[2018-02-06 21:29:59] [info]  [ 8884] Running 'elasticsearch-service-x64' Service...
+[2018-02-06 21:29:59] [info]  [ 2792] Starting service...
+[2018-02-06 21:29:59] [error] [ 2792] %1 is not a valid Win32 application.
+[2018-02-06 21:29:59] [error] [ 2792] Failed creating java C:\Program Files (x86)\Java\jdk1.8.0_144\jre\bin\server\jvm.dll
+[2018-02-06 21:29:59] [error] [ 2792] %1 is not a valid Win32 application.
+[2018-02-06 21:29:59] [error] [ 2792] ServiceStart returned 1
+[2018-02-06 21:29:59] [error] [ 2792] %1 is not a valid Win32 application.
+[2018-02-06 21:29:59] [info]  [ 8884] Run service finished.
+[2018-02-06 21:29:59] [info]  [ 8884] Commons Daemon procrun finished
+[2018-02-06 21:30:03] [info]  [10672] Commons Daemon procrun (1.0.15.0 64-bit) started
+[2018-02-06 21:30:03] [info]  [10672] Running 'elasticsearch-service-x64' Service...
+[2018-02-06 21:30:03] [info]  [ 3132] Starting service...
+[2018-02-06 21:30:03] [error] [ 3132] %1 is not a valid Win32 application.
+[2018-02-06 21:30:03] [error] [ 3132] Failed creating java C:\Program Files (x86)\Java\jdk1.8.0_144\jre\bin\server\jvm.dll
+[2018-02-06 21:30:03] [error] [ 3132] %1 is not a valid Win32 application.
+[2018-02-06 21:30:03] [error] [ 3132] ServiceStart returned 1
+[2018-02-06 21:30:03] [error] [ 3132] %1 is not a valid Win32 application.
+[2018-02-06 21:30:03] [info]  [10672] Run service finished.
+[2018-02-06 21:30:03] [info]  [10672] Commons Daemon procrun finished
+[2018-02-06 21:31:45] [info]  [ 6776] Commons Daemon procrun (1.0.15.0 64-bit) started
+[2018-02-06 21:31:45] [info]  [ 6776] Starting service 'elasticsearch-service-x64' ...
+[2018-02-06 21:31:45] [info]  [  544] Commons Daemon procrun (1.0.15.0 64-bit) started
+[2018-02-06 21:31:45] [info]  [  544] Running 'elasticsearch-service-x64' Service...
+[2018-02-06 21:31:45] [info]  [ 2000] Starting service...
+[2018-02-06 21:31:45] [error] [ 2000] %1 is not a valid Win32 application.
+[2018-02-06 21:31:45] [error] [ 2000] Failed creating java C:\Program Files (x86)\Java\jdk1.8.0_144\jre\bin\server\jvm.dll
+[2018-02-06 21:31:45] [error] [ 2000] %1 is not a valid Win32 application.
+[2018-02-06 21:31:45] [error] [ 2000] ServiceStart returned 1
+[2018-02-06 21:31:45] [error] [ 2000] %1 is not a valid Win32 application.
+[2018-02-06 21:31:45] [info]  [  544] Run service finished.
+[2018-02-06 21:31:45] [info]  [  544] Commons Daemon procrun finished
+[2018-02-06 21:31:46] [error] [ 6776] Failed to start 'elasticsearch-service-x64' service
+[2018-02-06 21:31:46] [error] [ 6776] The data area passed to a system call is too small.
+[2018-02-06 21:31:46] [info]  [ 6776] Start service finished.
+[2018-02-06 21:31:46] [error] [ 6776] Commons Daemon procrun failed with exit value: 5 (Failed to start service)
+[2018-02-06 21:31:46] [error] [ 6776] The data area passed to a system call is too small.
+[2018-02-06 21:36:03] [info]  [  340] Commons Daemon procrun (1.0.15.0 64-bit) started
+[2018-02-06 21:36:03] [info]  [  340] Starting service 'elasticsearch-service-x64' ...
+[2018-02-06 21:36:03] [info]  [ 1872] Commons Daemon procrun (1.0.15.0 64-bit) started
+[2018-02-06 21:36:03] [info]  [ 1872] Running 'elasticsearch-service-x64' Service...
+[2018-02-06 21:36:03] [info]  [ 4372] Starting service...
+[2018-02-06 21:36:03] [error] [ 4372] %1 is not a valid Win32 application.
+[2018-02-06 21:36:03] [error] [ 4372] Failed creating java C:\Program Files (x86)\Java\jdk1.8.0_144\jre\bin\server\jvm.dll
+[2018-02-06 21:36:03] [error] [ 4372] %1 is not a valid Win32 application.
+[2018-02-06 21:36:03] [error] [ 4372] ServiceStart returned 1
+[2018-02-06 21:36:03] [error] [ 4372] %1 is not a valid Win32 application.
+[2018-02-06 21:36:03] [info]  [ 1872] Run service finished.
+[2018-02-06 21:36:03] [info]  [ 1872] Commons Daemon procrun finished
+[2018-02-06 21:36:04] [error] [  340] Failed to start 'elasticsearch-service-x64' service
+[2018-02-06 21:36:04] [error] [  340] The data area passed to a system call is too small.
+[2018-02-06 21:36:04] [info]  [  340] Start service finished.
+[2018-02-06 21:36:04] [error] [  340] Commons Daemon procrun failed with exit value: 5 (Failed to start service)
+[2018-02-06 21:36:04] [error] [  340] The data area passed to a system call is too small.

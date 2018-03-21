@@ -1,0 +1,5 @@
+[2018-03-09 16:10:28] [info]  [11532] Commons Daemon procrun (1.0.15.0 64-bit) started
+[2018-03-09 16:10:28] [info]  [11532] Starting service 'elasticsearch-service-x64' ...
+[2018-03-09 16:10:29] [info]  [11532] Service 'elasticsearch-service-x64' started
+[2018-03-09 16:10:29] [info]  [11532] Start service finished.
+[2018-03-09 16:10:29] [info]  [11532] Commons Daemon procrun finished

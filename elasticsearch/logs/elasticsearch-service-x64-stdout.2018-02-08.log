@@ -1,0 +1,47 @@
+
+2018-02-08 17:14:15 Commons Daemon procrun stdout initialized
+[2018-02-08T17:14:19,059][INFO ][o.e.n.Node               ] [] initializing ...
+[2018-02-08T17:14:19,220][INFO ][o.e.e.NodeEnvironment    ] [ioVx7ov] using [1] data paths, mounts [[(C:)]], net usable_space [126.2gb], net total_space [237.7gb], types [NTFS]
+[2018-02-08T17:14:19,220][INFO ][o.e.e.NodeEnvironment    ] [ioVx7ov] heap size [990.7mb], compressed ordinary object pointers [true]
+[2018-02-08T17:14:19,236][INFO ][o.e.n.Node               ] node name [ioVx7ov] derived from node ID [ioVx7ovWS_ugPJvAO5H8Xw]; set [node.name] to override
+[2018-02-08T17:14:19,238][INFO ][o.e.n.Node               ] version[6.1.3], pid[10136], build[af51318/2018-01-26T18:22:55.523Z], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/9.0.4/9.0.4+11]
+[2018-02-08T17:14:19,238][INFO ][o.e.n.Node               ] JVM arguments [-Xms1g, -Xmx1g, -XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -XX:-OmitStackTraceInFastThrow, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -XX:+HeapDumpOnOutOfMemoryError, -Delasticsearch, -Des.path.home=C:\Users\Sheirly\Desktop\ES\elasticsearch-6.1.3, -Des.path.conf=C:\Users\Sheirly\Desktop\ES\elasticsearch-6.1.3\config, exit, -Xms1024m, -Xmx1024m, -Xss1024k]
+[2018-02-08T17:14:23,234][INFO ][o.e.p.PluginsService     ] [ioVx7ov] loaded module [aggs-matrix-stats]
+[2018-02-08T17:14:23,234][INFO ][o.e.p.PluginsService     ] [ioVx7ov] loaded module [analysis-common]
+[2018-02-08T17:14:23,234][INFO ][o.e.p.PluginsService     ] [ioVx7ov] loaded module [ingest-common]
+[2018-02-08T17:14:23,234][INFO ][o.e.p.PluginsService     ] [ioVx7ov] loaded module [lang-expression]
+[2018-02-08T17:14:23,234][INFO ][o.e.p.PluginsService     ] [ioVx7ov] loaded module [lang-mustache]
+[2018-02-08T17:14:23,234][INFO ][o.e.p.PluginsService     ] [ioVx7ov] loaded module [lang-painless]
+[2018-02-08T17:14:23,234][INFO ][o.e.p.PluginsService     ] [ioVx7ov] loaded module [mapper-extras]
+[2018-02-08T17:14:23,234][INFO ][o.e.p.PluginsService     ] [ioVx7ov] loaded module [parent-join]
+[2018-02-08T17:14:23,234][INFO ][o.e.p.PluginsService     ] [ioVx7ov] loaded module [percolator]
+[2018-02-08T17:14:23,238][INFO ][o.e.p.PluginsService     ] [ioVx7ov] loaded module [reindex]
+[2018-02-08T17:14:23,238][INFO ][o.e.p.PluginsService     ] [ioVx7ov] loaded module [repository-url]
+[2018-02-08T17:14:23,238][INFO ][o.e.p.PluginsService     ] [ioVx7ov] loaded module [transport-netty4]
+[2018-02-08T17:14:23,238][INFO ][o.e.p.PluginsService     ] [ioVx7ov] loaded module [tribe]
+[2018-02-08T17:14:23,238][INFO ][o.e.p.PluginsService     ] [ioVx7ov] no plugins loaded
+[2018-02-08T17:14:26,604][INFO ][o.e.d.DiscoveryModule    ] [ioVx7ov] using discovery type [zen]
+[2018-02-08T17:14:27,732][INFO ][o.e.n.Node               ] initialized
+[2018-02-08T17:14:27,732][INFO ][o.e.n.Node               ] [ioVx7ov] starting ...
+[2018-02-08T17:14:28,256][INFO ][o.e.t.TransportService   ] [ioVx7ov] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2018-02-08T17:14:31,337][INFO ][o.e.c.s.MasterService    ] [ioVx7ov] zen-disco-elected-as-master ([0] nodes joined), reason: new_master {ioVx7ov}{ioVx7ovWS_ugPJvAO5H8Xw}{zF_mM_4cTKikLMdT62gbNA}{127.0.0.1}{127.0.0.1:9300}
+[2018-02-08T17:14:31,337][INFO ][o.e.c.s.ClusterApplierService] [ioVx7ov] new_master {ioVx7ov}{ioVx7ovWS_ugPJvAO5H8Xw}{zF_mM_4cTKikLMdT62gbNA}{127.0.0.1}{127.0.0.1:9300}, reason: apply cluster state (from master [master {ioVx7ov}{ioVx7ovWS_ugPJvAO5H8Xw}{zF_mM_4cTKikLMdT62gbNA}{127.0.0.1}{127.0.0.1:9300} committed version [1] source [zen-disco-elected-as-master ([0] nodes joined)]])
+[2018-02-08T17:14:31,426][INFO ][o.e.g.GatewayService     ] [ioVx7ov] recovered [0] indices into cluster_state
+[2018-02-08T17:14:31,572][INFO ][o.e.h.n.Netty4HttpServerTransport] [ioVx7ov] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2018-02-08T17:14:31,572][INFO ][o.e.n.Node               ] [ioVx7ov] started
+[2018-02-08T17:18:54,752][INFO ][o.e.c.m.MetaDataCreateIndexService] [ioVx7ov] [test_doc] creating index, cause [api], templates [], shards [5]/[1], mappings [doc]
+[2018-02-08T17:18:55,241][INFO ][o.e.c.m.MetaDataCreateIndexService] [ioVx7ov] [test_doc_folder] creating index, cause [api], templates [], shards [5]/[1], mappings [doc]
+[2018-02-08T17:53:52,195][INFO ][o.e.c.m.MetaDataCreateIndexService] [ioVx7ov] [website] creating index, cause [auto(bulk api)], templates [], shards [5]/[1], mappings []
+[2018-02-08T17:53:52,797][INFO ][o.e.c.m.MetaDataMappingService] [ioVx7ov] [website/kfLZN4jZR_6QgFw5QfpWeA] create_mapping [blog]
+[2018-02-08T17:54:51,347][INFO ][o.e.c.m.MetaDataCreateIndexService] [ioVx7ov] [.kibana] creating index, cause [auto(bulk api)], templates [kibana_index_template:.kibana], shards [1]/[1], mappings [doc]
+[2018-02-08T17:54:54,024][INFO ][o.e.c.m.MetaDataMappingService] [ioVx7ov] [.kibana/WkXGusFjQFOwTNU6SnRVQA] update_mapping [doc]
+[2018-02-08T18:21:32,052][INFO ][o.e.c.m.MetaDataDeleteIndexService] [ioVx7ov] [test_doc/q1c-HTDDRwSvXTJReFpD1g] deleting index
+[2018-02-08T18:24:11,685][INFO ][o.e.c.m.MetaDataCreateIndexService] [ioVx7ov] [job_name] creating index, cause [api], templates [], shards [5]/[1], mappings [doc]
+[2018-02-08T18:24:11,930][INFO ][o.e.c.m.MetaDataCreateIndexService] [ioVx7ov] [job_name_folder] creating index, cause [api], templates [], shards [5]/[1], mappings [doc]
+[2018-02-08T18:25:52,581][INFO ][o.e.c.m.MetaDataDeleteIndexService] [ioVx7ov] [job_name/bDS_UguaQ9aH_gMiScOd9A] deleting index
+[2018-02-08T18:35:02,167][INFO ][o.e.c.m.MetaDataCreateIndexService] [ioVx7ov] [job_1] creating index, cause [api], templates [], shards [5]/[1], mappings [doc]
+[2018-02-08T18:35:02,402][INFO ][o.e.c.m.MetaDataCreateIndexService] [ioVx7ov] [job_1_folder] creating index, cause [api], templates [], shards [5]/[1], mappings [doc]
+[2018-02-08T19:31:45,900][INFO ][o.e.n.Node               ] [ioVx7ov] stopping ...
+[2018-02-08T19:31:46,096][INFO ][o.e.n.Node               ] [ioVx7ov] stopped
+[2018-02-08T19:31:46,100][INFO ][o.e.n.Node               ] [ioVx7ov] closing ...
+[2018-02-08T19:31:46,159][INFO ][o.e.n.Node               ] [ioVx7ov] closed

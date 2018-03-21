@@ -1,0 +1,654 @@
+<NotepadPlus>
+    <Project name="elasticPHP">
+        <Folder name="app">
+            <File name="app\init.php" />
+        </Folder>
+        <Folder name="vendor">
+            <Folder name="composer">
+                <File name="vendor\composer\autoload_classmap.php" />
+                <File name="vendor\composer\autoload_files.php" />
+                <File name="vendor\composer\autoload_namespaces.php" />
+                <File name="vendor\composer\autoload_psr4.php" />
+                <File name="vendor\composer\autoload_real.php" />
+                <File name="vendor\composer\autoload_static.php" />
+                <File name="vendor\composer\ClassLoader.php" />
+                <File name="vendor\composer\installed.json" />
+                <File name="vendor\composer\LICENSE" />
+            </Folder>
+            <Folder name="elasticsearch">
+                <Folder name="elasticsearch">
+                    <Folder name=".github">
+                        <File name="vendor\elasticsearch\elasticsearch\.github\CONTRIBUTING.md" />
+                        <File name="vendor\elasticsearch\elasticsearch\.github\ISSUE_TEMPLATE.md" />
+                        <File name="vendor\elasticsearch\elasticsearch\.github\PULL_REQUEST_TEMPLATE.md" />
+                    </Folder>
+                    <Folder name="docs">
+                        <Folder name="build">
+                            <Folder name="Elasticsearch">
+                                <Folder name="Namespaces">
+                                    <File name="vendor\elasticsearch\elasticsearch\docs\build\Elasticsearch\Namespaces\CatNamespace.asciidoc" />
+                                    <File name="vendor\elasticsearch\elasticsearch\docs\build\Elasticsearch\Namespaces\ClusterNamespace.asciidoc" />
+                                    <File name="vendor\elasticsearch\elasticsearch\docs\build\Elasticsearch\Namespaces\IndicesNamespace.asciidoc" />
+                                    <File name="vendor\elasticsearch\elasticsearch\docs\build\Elasticsearch\Namespaces\IngestNamespace.asciidoc" />
+                                    <File name="vendor\elasticsearch\elasticsearch\docs\build\Elasticsearch\Namespaces\NodesNamespace.asciidoc" />
+                                    <File name="vendor\elasticsearch\elasticsearch\docs\build\Elasticsearch\Namespaces\RemoteNamespace.asciidoc" />
+                                    <File name="vendor\elasticsearch\elasticsearch\docs\build\Elasticsearch\Namespaces\SnapshotNamespace.asciidoc" />
+                                    <File name="vendor\elasticsearch\elasticsearch\docs\build\Elasticsearch\Namespaces\TasksNamespace.asciidoc" />
+                                </Folder>
+                                <File name="vendor\elasticsearch\elasticsearch\docs\build\Elasticsearch\Client.asciidoc" />
+                                <File name="vendor\elasticsearch\elasticsearch\docs\build\Elasticsearch\ClientBuilder.asciidoc" />
+                            </Folder>
+                            <File name="vendor\elasticsearch\elasticsearch\docs\build\classes.asciidoc" />
+                            <File name="vendor\elasticsearch\elasticsearch\docs\build\interfaces.asciidoc" />
+                            <File name="vendor\elasticsearch\elasticsearch\docs\build\namespaces.asciidoc" />
+                            <File name="vendor\elasticsearch\elasticsearch\docs\build\PROJECT_VERSION" />
+                            <File name="vendor\elasticsearch\elasticsearch\docs\build\renderer.index" />
+                            <File name="vendor\elasticsearch\elasticsearch\docs\build\SAMI_VERSION" />
+                        </Folder>
+                        <File name="vendor\elasticsearch\elasticsearch\docs\breaking-changes.asciidoc" />
+                        <File name="vendor\elasticsearch\elasticsearch\docs\community.asciidoc" />
+                        <File name="vendor\elasticsearch\elasticsearch\docs\configuration.asciidoc" />
+                        <File name="vendor\elasticsearch\elasticsearch\docs\connection-pool.asciidoc" />
+                        <File name="vendor\elasticsearch\elasticsearch\docs\crud.asciidoc" />
+                        <File name="vendor\elasticsearch\elasticsearch\docs\futures.asciidoc" />
+                        <File name="vendor\elasticsearch\elasticsearch\docs\index-operations.asciidoc" />
+                        <File name="vendor\elasticsearch\elasticsearch\docs\index.asciidoc" />
+                        <File name="vendor\elasticsearch\elasticsearch\docs\installation.asciidoc" />
+                        <File name="vendor\elasticsearch\elasticsearch\docs\namespaces.asciidoc" />
+                        <File name="vendor\elasticsearch\elasticsearch\docs\overview.asciidoc" />
+                        <File name="vendor\elasticsearch\elasticsearch\docs\per-request-configuration.asciidoc" />
+                        <File name="vendor\elasticsearch\elasticsearch\docs\php-version-requirement.asciidoc" />
+                        <File name="vendor\elasticsearch\elasticsearch\docs\php_json_objects.asciidoc" />
+                        <File name="vendor\elasticsearch\elasticsearch\docs\quickstart.asciidoc" />
+                        <File name="vendor\elasticsearch\elasticsearch\docs\search-operations.asciidoc" />
+                        <File name="vendor\elasticsearch\elasticsearch\docs\security.asciidoc" />
+                        <File name="vendor\elasticsearch\elasticsearch\docs\selectors.asciidoc" />
+                        <File name="vendor\elasticsearch\elasticsearch\docs\serializers.asciidoc" />
+                    </Folder>
+                    <Folder name="src">
+                        <Folder name="Elasticsearch">
+                            <Folder name="Common">
+                                <Folder name="Exceptions">
+                                    <Folder name="Curl">
+                                        <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Common\Exceptions\Curl\CouldNotConnectToHost.php" />
+                                        <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Common\Exceptions\Curl\CouldNotResolveHostException.php" />
+                                        <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Common\Exceptions\Curl\OperationTimeoutException.php" />
+                                    </Folder>
+                                    <Folder name="Serializer">
+                                        <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Common\Exceptions\Serializer\JsonErrorException.php" />
+                                    </Folder>
+                                    <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Common\Exceptions\AlreadyExpiredException.php" />
+                                    <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Common\Exceptions\BadMethodCallException.php" />
+                                    <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Common\Exceptions\BadRequest400Exception.php" />
+                                    <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Common\Exceptions\ClientErrorResponseException.php" />
+                                    <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Common\Exceptions\Conflict409Exception.php" />
+                                    <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Common\Exceptions\ElasticsearchException.php" />
+                                    <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Common\Exceptions\Forbidden403Exception.php" />
+                                    <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Common\Exceptions\InvalidArgumentException.php" />
+                                    <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Common\Exceptions\MaxRetriesException.php" />
+                                    <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Common\Exceptions\Missing404Exception.php" />
+                                    <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Common\Exceptions\NoDocumentsToGetException.php" />
+                                    <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Common\Exceptions\NoNodesAvailableException.php" />
+                                    <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Common\Exceptions\NoShardAvailableException.php" />
+                                    <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Common\Exceptions\RequestTimeout408Exception.php" />
+                                    <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Common\Exceptions\RoutingMissingException.php" />
+                                    <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Common\Exceptions\RuntimeException.php" />
+                                    <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Common\Exceptions\ScriptLangNotSupportedException.php" />
+                                    <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Common\Exceptions\ServerErrorResponseException.php" />
+                                    <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Common\Exceptions\TransportException.php" />
+                                    <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Common\Exceptions\Unauthorized401Exception.php" />
+                                    <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Common\Exceptions\UnexpectedValueException.php" />
+                                </Folder>
+                                <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Common\EmptyLogger.php" />
+                            </Folder>
+                            <Folder name="ConnectionPool">
+                                <Folder name="Selectors">
+                                    <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\ConnectionPool\Selectors\RandomSelector.php" />
+                                    <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\ConnectionPool\Selectors\RoundRobinSelector.php" />
+                                    <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\ConnectionPool\Selectors\SelectorInterface.php" />
+                                    <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\ConnectionPool\Selectors\StickyRoundRobinSelector.php" />
+                                </Folder>
+                                <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\ConnectionPool\AbstractConnectionPool.php" />
+                                <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\ConnectionPool\ConnectionPoolInterface.php" />
+                                <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\ConnectionPool\SimpleConnectionPool.php" />
+                                <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\ConnectionPool\SniffingConnectionPool.php" />
+                                <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\ConnectionPool\StaticConnectionPool.php" />
+                                <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\ConnectionPool\StaticNoPingConnectionPool.php" />
+                            </Folder>
+                            <Folder name="Connections">
+                                <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Connections\Connection.php" />
+                                <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Connections\ConnectionFactory.php" />
+                                <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Connections\ConnectionFactoryInterface.php" />
+                                <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Connections\ConnectionInterface.php" />
+                            </Folder>
+                            <Folder name="Endpoints">
+                                <Folder name="Cat">
+                                    <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Endpoints\Cat\Aliases.php" />
+                                    <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Endpoints\Cat\Allocation.php" />
+                                    <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Endpoints\Cat\Count.php" />
+                                    <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Endpoints\Cat\Fielddata.php" />
+                                    <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Endpoints\Cat\Health.php" />
+                                    <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Endpoints\Cat\Help.php" />
+                                    <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Endpoints\Cat\Indices.php" />
+                                    <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Endpoints\Cat\Master.php" />
+                                    <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Endpoints\Cat\NodeAttrs.php" />
+                                    <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Endpoints\Cat\Nodes.php" />
+                                    <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Endpoints\Cat\PendingTasks.php" />
+                                    <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Endpoints\Cat\Plugins.php" />
+                                    <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Endpoints\Cat\Recovery.php" />
+                                    <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Endpoints\Cat\Repositories.php" />
+                                    <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Endpoints\Cat\Segments.php" />
+                                    <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Endpoints\Cat\Shards.php" />
+                                    <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Endpoints\Cat\Snapshots.php" />
+                                    <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Endpoints\Cat\Tasks.php" />
+                                    <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Endpoints\Cat\Templates.php" />
+                                    <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Endpoints\Cat\ThreadPool.php" />
+                                </Folder>
+                                <Folder name="Cluster">
+                                    <Folder name="Nodes">
+                                        <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Endpoints\Cluster\Nodes\AbstractNodesEndpoint.php" />
+                                        <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Endpoints\Cluster\Nodes\HotThreads.php" />
+                                        <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Endpoints\Cluster\Nodes\Info.php" />
+                                        <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Endpoints\Cluster\Nodes\Shutdown.php" />
+                                        <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Endpoints\Cluster\Nodes\Stats.php" />
+                                    </Folder>
+                                    <Folder name="Settings">
+                                        <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Endpoints\Cluster\Settings\Get.php" />
+                                        <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Endpoints\Cluster\Settings\Put.php" />
+                                    </Folder>
+                                    <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Endpoints\Cluster\AllocationExplain.php" />
+                                    <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Endpoints\Cluster\Health.php" />
+                                    <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Endpoints\Cluster\PendingTasks.php" />
+                                    <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Endpoints\Cluster\RemoteInfo.php" />
+                                    <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Endpoints\Cluster\Reroute.php" />
+                                    <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Endpoints\Cluster\State.php" />
+                                    <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Endpoints\Cluster\Stats.php" />
+                                </Folder>
+                                <Folder name="Indices">
+                                    <Folder name="Alias">
+                                        <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Endpoints\Indices\Alias\AbstractAliasEndpoint.php" />
+                                        <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Endpoints\Indices\Alias\Delete.php" />
+                                        <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Endpoints\Indices\Alias\Exists.php" />
+                                        <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Endpoints\Indices\Alias\Get.php" />
+                                        <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Endpoints\Indices\Alias\Put.php" />
+                                    </Folder>
+                                    <Folder name="Aliases">
+                                        <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Endpoints\Indices\Aliases\Update.php" />
+                                    </Folder>
+                                    <Folder name="Cache">
+                                        <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Endpoints\Indices\Cache\Clear.php" />
+                                    </Folder>
+                                    <Folder name="Exists">
+                                        <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Endpoints\Indices\Exists\Types.php" />
+                                    </Folder>
+                                    <Folder name="Field">
+                                        <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Endpoints\Indices\Field\Get.php" />
+                                    </Folder>
+                                    <Folder name="Gateway">
+                                        <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Endpoints\Indices\Gateway\Snapshot.php" />
+                                    </Folder>
+                                    <Folder name="Mapping">
+                                        <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Endpoints\Indices\Mapping\Delete.php" />
+                                        <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Endpoints\Indices\Mapping\Get.php" />
+                                        <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Endpoints\Indices\Mapping\GetField.php" />
+                                        <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Endpoints\Indices\Mapping\Put.php" />
+                                    </Folder>
+                                    <Folder name="Settings">
+                                        <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Endpoints\Indices\Settings\Get.php" />
+                                        <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Endpoints\Indices\Settings\Put.php" />
+                                    </Folder>
+                                    <Folder name="Template">
+                                        <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Endpoints\Indices\Template\AbstractTemplateEndpoint.php" />
+                                        <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Endpoints\Indices\Template\Delete.php" />
+                                        <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Endpoints\Indices\Template\Exists.php" />
+                                        <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Endpoints\Indices\Template\Get.php" />
+                                        <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Endpoints\Indices\Template\Put.php" />
+                                    </Folder>
+                                    <Folder name="Type">
+                                        <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Endpoints\Indices\Type\Exists.php" />
+                                    </Folder>
+                                    <Folder name="Upgrade">
+                                        <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Endpoints\Indices\Upgrade\Get.php" />
+                                        <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Endpoints\Indices\Upgrade\Post.php" />
+                                    </Folder>
+                                    <Folder name="Validate">
+                                        <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Endpoints\Indices\Validate\Query.php" />
+                                    </Folder>
+                                    <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Endpoints\Indices\Analyze.php" />
+                                    <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Endpoints\Indices\ClearCache.php" />
+                                    <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Endpoints\Indices\Close.php" />
+                                    <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Endpoints\Indices\Create.php" />
+                                    <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Endpoints\Indices\Delete.php" />
+                                    <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Endpoints\Indices\Exists.php" />
+                                    <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Endpoints\Indices\Flush.php" />
+                                    <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Endpoints\Indices\ForceMerge.php" />
+                                    <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Endpoints\Indices\Get.php" />
+                                    <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Endpoints\Indices\Open.php" />
+                                    <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Endpoints\Indices\Recovery.php" />
+                                    <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Endpoints\Indices\Refresh.php" />
+                                    <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Endpoints\Indices\Rollover.php" />
+                                    <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Endpoints\Indices\Seal.php" />
+                                    <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Endpoints\Indices\Segments.php" />
+                                    <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Endpoints\Indices\ShardStores.php" />
+                                    <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Endpoints\Indices\Shrink.php" />
+                                    <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Endpoints\Indices\Snapshotindex.php" />
+                                    <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Endpoints\Indices\Stats.php" />
+                                    <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Endpoints\Indices\Status.php" />
+                                    <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Endpoints\Indices\ValidateQuery.php" />
+                                </Folder>
+                                <Folder name="Ingest">
+                                    <Folder name="Pipeline">
+                                        <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Endpoints\Ingest\Pipeline\Delete.php" />
+                                        <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Endpoints\Ingest\Pipeline\Get.php" />
+                                        <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Endpoints\Ingest\Pipeline\Put.php" />
+                                    </Folder>
+                                    <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Endpoints\Ingest\ProcessorGrok.php" />
+                                    <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Endpoints\Ingest\Simulate.php" />
+                                </Folder>
+                                <Folder name="Remote">
+                                    <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Endpoints\Remote\Info.php" />
+                                </Folder>
+                                <Folder name="Script">
+                                    <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Endpoints\Script\Delete.php" />
+                                    <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Endpoints\Script\Get.php" />
+                                    <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Endpoints\Script\Put.php" />
+                                </Folder>
+                                <Folder name="Snapshot">
+                                    <Folder name="Repository">
+                                        <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Endpoints\Snapshot\Repository\Create.php" />
+                                        <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Endpoints\Snapshot\Repository\Delete.php" />
+                                        <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Endpoints\Snapshot\Repository\Get.php" />
+                                        <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Endpoints\Snapshot\Repository\Verify.php" />
+                                    </Folder>
+                                    <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Endpoints\Snapshot\Create.php" />
+                                    <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Endpoints\Snapshot\Delete.php" />
+                                    <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Endpoints\Snapshot\Get.php" />
+                                    <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Endpoints\Snapshot\Restore.php" />
+                                    <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Endpoints\Snapshot\Status.php" />
+                                </Folder>
+                                <Folder name="Source">
+                                    <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Endpoints\Source\Get.php" />
+                                </Folder>
+                                <Folder name="Tasks">
+                                    <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Endpoints\Tasks\Cancel.php" />
+                                    <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Endpoints\Tasks\Get.php" />
+                                    <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Endpoints\Tasks\TasksList.php" />
+                                </Folder>
+                                <Folder name="Template">
+                                    <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Endpoints\Template\Delete.php" />
+                                    <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Endpoints\Template\Get.php" />
+                                </Folder>
+                                <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Endpoints\AbstractEndpoint.php" />
+                                <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Endpoints\Bulk.php" />
+                                <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Endpoints\BulkEndpointInterface.php" />
+                                <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Endpoints\ClearScroll.php" />
+                                <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Endpoints\Count.php" />
+                                <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Endpoints\CountPercolate.php" />
+                                <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Endpoints\Create.php" />
+                                <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Endpoints\Delete.php" />
+                                <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Endpoints\DeleteByQuery.php" />
+                                <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Endpoints\Exists.php" />
+                                <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Endpoints\Explain.php" />
+                                <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Endpoints\FieldCaps.php" />
+                                <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Endpoints\FieldStats.php" />
+                                <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Endpoints\Get.php" />
+                                <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Endpoints\Index.php" />
+                                <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Endpoints\Info.php" />
+                                <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Endpoints\Mget.php" />
+                                <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Endpoints\MPercolate.php" />
+                                <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Endpoints\Msearch.php" />
+                                <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Endpoints\MsearchTemplate.php" />
+                                <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Endpoints\MTermVectors.php" />
+                                <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Endpoints\Percolate.php" />
+                                <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Endpoints\Ping.php" />
+                                <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Endpoints\Reindex.php" />
+                                <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Endpoints\RenderSearchTemplate.php" />
+                                <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Endpoints\Scroll.php" />
+                                <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Endpoints\Search.php" />
+                                <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Endpoints\SearchShards.php" />
+                                <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Endpoints\SearchTemplate.php" />
+                                <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Endpoints\Suggest.php" />
+                                <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Endpoints\TermVectors.php" />
+                                <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Endpoints\Update.php" />
+                                <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Endpoints\UpdateByQuery.php" />
+                            </Folder>
+                            <Folder name="Helper">
+                                <Folder name="Iterators">
+                                    <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Helper\Iterators\SearchHitIterator.php" />
+                                    <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Helper\Iterators\SearchResponseIterator.php" />
+                                </Folder>
+                            </Folder>
+                            <Folder name="Namespaces">
+                                <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Namespaces\AbstractNamespace.php" />
+                                <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Namespaces\BooleanRequestWrapper.php" />
+                                <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Namespaces\CatNamespace.php" />
+                                <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Namespaces\ClusterNamespace.php" />
+                                <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Namespaces\IndicesNamespace.php" />
+                                <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Namespaces\IngestNamespace.php" />
+                                <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Namespaces\NamespaceBuilderInterface.php" />
+                                <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Namespaces\NodesNamespace.php" />
+                                <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Namespaces\RemoteNamespace.php" />
+                                <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Namespaces\SnapshotNamespace.php" />
+                                <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Namespaces\TasksNamespace.php" />
+                            </Folder>
+                            <Folder name="Serializers">
+                                <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Serializers\ArrayToJSONSerializer.php" />
+                                <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Serializers\EverythingToJSONSerializer.php" />
+                                <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Serializers\SerializerInterface.php" />
+                                <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Serializers\SmartSerializer.php" />
+                            </Folder>
+                            <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php" />
+                            <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\ClientBuilder.php" />
+                            <File name="vendor\elasticsearch\elasticsearch\src\Elasticsearch\Transport.php" />
+                        </Folder>
+                    </Folder>
+                    <Folder name="tests">
+                        <Folder name="Elasticsearch">
+                            <Folder name="Tests">
+                                <Folder name="ClientBuilder">
+                                    <File name="vendor\elasticsearch\elasticsearch\tests\Elasticsearch\Tests\ClientBuilder\DummyLogger.php" />
+                                </Folder>
+                                <Folder name="ConnectionPool">
+                                    <Folder name="Selectors">
+                                        <File name="vendor\elasticsearch\elasticsearch\tests\Elasticsearch\Tests\ConnectionPool\Selectors\RoundRobinSelectorTest.php" />
+                                        <File name="vendor\elasticsearch\elasticsearch\tests\Elasticsearch\Tests\ConnectionPool\Selectors\StickyRoundRobinSelectorTest.php" />
+                                    </Folder>
+                                    <File name="vendor\elasticsearch\elasticsearch\tests\Elasticsearch\Tests\ConnectionPool\SniffingConnectionPoolIntegrationTest.php" />
+                                    <File name="vendor\elasticsearch\elasticsearch\tests\Elasticsearch\Tests\ConnectionPool\SniffingConnectionPoolTest.php" />
+                                    <File name="vendor\elasticsearch\elasticsearch\tests\Elasticsearch\Tests\ConnectionPool\StaticConnectionPoolIntegrationTest.php" />
+                                    <File name="vendor\elasticsearch\elasticsearch\tests\Elasticsearch\Tests\ConnectionPool\StaticConnectionPoolTest.php" />
+                                </Folder>
+                                <Folder name="Endpoints">
+                                    <File name="vendor\elasticsearch\elasticsearch\tests\Elasticsearch\Tests\Endpoints\AbstractEndpointTest.php" />
+                                </Folder>
+                                <Folder name="Helper">
+                                    <Folder name="Iterators">
+                                        <File name="vendor\elasticsearch\elasticsearch\tests\Elasticsearch\Tests\Helper\Iterators\SearchResponseIteratorTest.php" />
+                                    </Folder>
+                                </Folder>
+                                <Folder name="Serializers">
+                                    <File name="vendor\elasticsearch\elasticsearch\tests\Elasticsearch\Tests\Serializers\ArrayToJSONSerializerTest.php" />
+                                    <File name="vendor\elasticsearch\elasticsearch\tests\Elasticsearch\Tests\Serializers\EverythingToJSONSerializerTest.php" />
+                                </Folder>
+                                <File name="vendor\elasticsearch\elasticsearch\tests\Elasticsearch\Tests\ClientBuilderTest.php" />
+                                <File name="vendor\elasticsearch\elasticsearch\tests\Elasticsearch\Tests\ClientIntegrationTests.php" />
+                                <File name="vendor\elasticsearch\elasticsearch\tests\Elasticsearch\Tests\ClientTest.php" />
+                                <File name="vendor\elasticsearch\elasticsearch\tests\Elasticsearch\Tests\RegisteredNamespaceTest.php" />
+                                <File name="vendor\elasticsearch\elasticsearch\tests\Elasticsearch\Tests\YamlRunnerTest.php" />
+                            </Folder>
+                        </Folder>
+                        <File name="vendor\elasticsearch\elasticsearch\tests\bootstrap.php" />
+                    </Folder>
+                    <Folder name="travis">
+                        <File name="vendor\elasticsearch\elasticsearch\travis\download_and_run_es.sh" />
+                        <File name="vendor\elasticsearch\elasticsearch\travis\generate_docs.sh" />
+                    </Folder>
+                    <Folder name="util">
+                        <Folder name="docstheme">
+                            <Folder name="layout">
+                                <File name="vendor\elasticsearch\elasticsearch\util\docstheme\layout\base.twig" />
+                            </Folder>
+                            <Folder name="pages">
+                                <File name="vendor\elasticsearch\elasticsearch\util\docstheme\pages\class.twig" />
+                                <File name="vendor\elasticsearch\elasticsearch\util\docstheme\pages\classes.twig" />
+                                <File name="vendor\elasticsearch\elasticsearch\util\docstheme\pages\interfaces.twig" />
+                                <File name="vendor\elasticsearch\elasticsearch\util\docstheme\pages\namespaces.twig" />
+                            </Folder>
+                            <File name="vendor\elasticsearch\elasticsearch\util\docstheme\macros.twig" />
+                            <File name="vendor\elasticsearch\elasticsearch\util\docstheme\manifest.yml" />
+                        </Folder>
+                        <Folder name="elasticsearch" />
+                        <Folder name="templates">
+                            <File name="vendor\elasticsearch\elasticsearch\util\templates\endpoint.twig" />
+                        </Folder>
+                        <File name="vendor\elasticsearch\elasticsearch\util\docsConfig.php" />
+                        <File name="vendor\elasticsearch\elasticsearch\util\EnsureClusterAlive.php" />
+                        <File name="vendor\elasticsearch\elasticsearch\util\RestSpecRunner.php" />
+                        <File name="vendor\elasticsearch\elasticsearch\util\SpecParser.php" />
+                    </Folder>
+                    <File name="vendor\elasticsearch\elasticsearch\.gitignore" />
+                    <File name="vendor\elasticsearch\elasticsearch\.gitmodules" />
+                    <File name="vendor\elasticsearch\elasticsearch\.php_cs" />
+                    <File name="vendor\elasticsearch\elasticsearch\.travis.yml" />
+                    <File name="vendor\elasticsearch\elasticsearch\BREAKING_CHANGES.md" />
+                    <File name="vendor\elasticsearch\elasticsearch\CHANGELOG.md" />
+                    <File name="vendor\elasticsearch\elasticsearch\composer.json" />
+                    <File name="vendor\elasticsearch\elasticsearch\LICENSE" />
+                    <File name="vendor\elasticsearch\elasticsearch\NOTICE" />
+                    <File name="vendor\elasticsearch\elasticsearch\phpstan.neon" />
+                    <File name="vendor\elasticsearch\elasticsearch\phpunit-integration.xml" />
+                    <File name="vendor\elasticsearch\elasticsearch\phpunit.xml" />
+                    <File name="vendor\elasticsearch\elasticsearch\README.md" />
+                    <File name="vendor\elasticsearch\elasticsearch\ruleset.xml" />
+                </Folder>
+            </Folder>
+            <Folder name="guzzlehttp">
+                <Folder name="ringphp">
+                    <Folder name="docs">
+                        <File name="vendor\guzzlehttp\ringphp\docs\client_handlers.rst" />
+                        <File name="vendor\guzzlehttp\ringphp\docs\client_middleware.rst" />
+                        <File name="vendor\guzzlehttp\ringphp\docs\conf.py" />
+                        <File name="vendor\guzzlehttp\ringphp\docs\futures.rst" />
+                        <File name="vendor\guzzlehttp\ringphp\docs\index.rst" />
+                        <File name="vendor\guzzlehttp\ringphp\docs\Makefile" />
+                        <File name="vendor\guzzlehttp\ringphp\docs\requirements.txt" />
+                        <File name="vendor\guzzlehttp\ringphp\docs\spec.rst" />
+                        <File name="vendor\guzzlehttp\ringphp\docs\testing.rst" />
+                    </Folder>
+                    <Folder name="src">
+                        <Folder name="Client">
+                            <File name="vendor\guzzlehttp\ringphp\src\Client\ClientUtils.php" />
+                            <File name="vendor\guzzlehttp\ringphp\src\Client\CurlFactory.php" />
+                            <File name="vendor\guzzlehttp\ringphp\src\Client\CurlHandler.php" />
+                            <File name="vendor\guzzlehttp\ringphp\src\Client\CurlMultiHandler.php" />
+                            <File name="vendor\guzzlehttp\ringphp\src\Client\Middleware.php" />
+                            <File name="vendor\guzzlehttp\ringphp\src\Client\MockHandler.php" />
+                            <File name="vendor\guzzlehttp\ringphp\src\Client\StreamHandler.php" />
+                        </Folder>
+                        <Folder name="Exception">
+                            <File name="vendor\guzzlehttp\ringphp\src\Exception\CancelledException.php" />
+                            <File name="vendor\guzzlehttp\ringphp\src\Exception\CancelledFutureAccessException.php" />
+                            <File name="vendor\guzzlehttp\ringphp\src\Exception\ConnectException.php" />
+                            <File name="vendor\guzzlehttp\ringphp\src\Exception\RingException.php" />
+                        </Folder>
+                        <Folder name="Future">
+                            <File name="vendor\guzzlehttp\ringphp\src\Future\BaseFutureTrait.php" />
+                            <File name="vendor\guzzlehttp\ringphp\src\Future\CompletedFutureArray.php" />
+                            <File name="vendor\guzzlehttp\ringphp\src\Future\CompletedFutureValue.php" />
+                            <File name="vendor\guzzlehttp\ringphp\src\Future\FutureArray.php" />
+                            <File name="vendor\guzzlehttp\ringphp\src\Future\FutureArrayInterface.php" />
+                            <File name="vendor\guzzlehttp\ringphp\src\Future\FutureInterface.php" />
+                            <File name="vendor\guzzlehttp\ringphp\src\Future\FutureValue.php" />
+                            <File name="vendor\guzzlehttp\ringphp\src\Future\MagicFutureTrait.php" />
+                        </Folder>
+                        <File name="vendor\guzzlehttp\ringphp\src\Core.php" />
+                    </Folder>
+                    <Folder name="tests">
+                        <Folder name="Client">
+                            <File name="vendor\guzzlehttp\ringphp\tests\Client\CurlFactoryTest.php" />
+                            <File name="vendor\guzzlehttp\ringphp\tests\Client\CurlHandlerTest.php" />
+                            <File name="vendor\guzzlehttp\ringphp\tests\Client\CurlMultiHandlerTest.php" />
+                            <File name="vendor\guzzlehttp\ringphp\tests\Client\MiddlewareTest.php" />
+                            <File name="vendor\guzzlehttp\ringphp\tests\Client\MockHandlerTest.php" />
+                            <File name="vendor\guzzlehttp\ringphp\tests\Client\server.js" />
+                            <File name="vendor\guzzlehttp\ringphp\tests\Client\Server.php" />
+                            <File name="vendor\guzzlehttp\ringphp\tests\Client\StreamHandlerTest.php" />
+                        </Folder>
+                        <Folder name="Future">
+                            <File name="vendor\guzzlehttp\ringphp\tests\Future\CompletedFutureArrayTest.php" />
+                            <File name="vendor\guzzlehttp\ringphp\tests\Future\CompletedFutureValueTest.php" />
+                            <File name="vendor\guzzlehttp\ringphp\tests\Future\FutureArrayTest.php" />
+                            <File name="vendor\guzzlehttp\ringphp\tests\Future\FutureValueTest.php" />
+                        </Folder>
+                        <File name="vendor\guzzlehttp\ringphp\tests\bootstrap.php" />
+                        <File name="vendor\guzzlehttp\ringphp\tests\CoreTest.php" />
+                    </Folder>
+                    <File name="vendor\guzzlehttp\ringphp\.gitignore" />
+                    <File name="vendor\guzzlehttp\ringphp\.travis.yml" />
+                    <File name="vendor\guzzlehttp\ringphp\CHANGELOG.md" />
+                    <File name="vendor\guzzlehttp\ringphp\composer.json" />
+                    <File name="vendor\guzzlehttp\ringphp\LICENSE" />
+                    <File name="vendor\guzzlehttp\ringphp\Makefile" />
+                    <File name="vendor\guzzlehttp\ringphp\phpunit.xml.dist" />
+                    <File name="vendor\guzzlehttp\ringphp\README.rst" />
+                </Folder>
+                <Folder name="streams">
+                    <Folder name="src">
+                        <Folder name="Exception">
+                            <File name="vendor\guzzlehttp\streams\src\Exception\CannotAttachException.php" />
+                            <File name="vendor\guzzlehttp\streams\src\Exception\SeekException.php" />
+                        </Folder>
+                        <File name="vendor\guzzlehttp\streams\src\AppendStream.php" />
+                        <File name="vendor\guzzlehttp\streams\src\AsyncReadStream.php" />
+                        <File name="vendor\guzzlehttp\streams\src\BufferStream.php" />
+                        <File name="vendor\guzzlehttp\streams\src\CachingStream.php" />
+                        <File name="vendor\guzzlehttp\streams\src\DroppingStream.php" />
+                        <File name="vendor\guzzlehttp\streams\src\FnStream.php" />
+                        <File name="vendor\guzzlehttp\streams\src\GuzzleStreamWrapper.php" />
+                        <File name="vendor\guzzlehttp\streams\src\InflateStream.php" />
+                        <File name="vendor\guzzlehttp\streams\src\LazyOpenStream.php" />
+                        <File name="vendor\guzzlehttp\streams\src\LimitStream.php" />
+                        <File name="vendor\guzzlehttp\streams\src\MetadataStreamInterface.php" />
+                        <File name="vendor\guzzlehttp\streams\src\NoSeekStream.php" />
+                        <File name="vendor\guzzlehttp\streams\src\NullStream.php" />
+                        <File name="vendor\guzzlehttp\streams\src\PumpStream.php" />
+                        <File name="vendor\guzzlehttp\streams\src\Stream.php" />
+                        <File name="vendor\guzzlehttp\streams\src\StreamDecoratorTrait.php" />
+                        <File name="vendor\guzzlehttp\streams\src\StreamInterface.php" />
+                        <File name="vendor\guzzlehttp\streams\src\Utils.php" />
+                    </Folder>
+                    <Folder name="tests">
+                        <Folder name="Exception">
+                            <File name="vendor\guzzlehttp\streams\tests\Exception\SeekExceptionTest.php" />
+                        </Folder>
+                        <File name="vendor\guzzlehttp\streams\tests\AppendStreamTest.php" />
+                        <File name="vendor\guzzlehttp\streams\tests\AsyncReadStreamTest.php" />
+                        <File name="vendor\guzzlehttp\streams\tests\BufferStreamTest.php" />
+                        <File name="vendor\guzzlehttp\streams\tests\CachingStreamTest.php" />
+                        <File name="vendor\guzzlehttp\streams\tests\DroppingStreamTest.php" />
+                        <File name="vendor\guzzlehttp\streams\tests\FnStreamTest.php" />
+                        <File name="vendor\guzzlehttp\streams\tests\GuzzleStreamWrapperTest.php" />
+                        <File name="vendor\guzzlehttp\streams\tests\InflateStreamTest.php" />
+                        <File name="vendor\guzzlehttp\streams\tests\LazyOpenStreamTest.php" />
+                        <File name="vendor\guzzlehttp\streams\tests\LimitStreamTest.php" />
+                        <File name="vendor\guzzlehttp\streams\tests\NoSeekStreamTest.php" />
+                        <File name="vendor\guzzlehttp\streams\tests\NullStreamTest.php" />
+                        <File name="vendor\guzzlehttp\streams\tests\PumpStreamTest.php" />
+                        <File name="vendor\guzzlehttp\streams\tests\StreamDecoratorTraitTest.php" />
+                        <File name="vendor\guzzlehttp\streams\tests\StreamTest.php" />
+                        <File name="vendor\guzzlehttp\streams\tests\UtilsTest.php" />
+                    </Folder>
+                    <File name="vendor\guzzlehttp\streams\.gitignore" />
+                    <File name="vendor\guzzlehttp\streams\.travis.yml" />
+                    <File name="vendor\guzzlehttp\streams\CHANGELOG.rst" />
+                    <File name="vendor\guzzlehttp\streams\composer.json" />
+                    <File name="vendor\guzzlehttp\streams\LICENSE" />
+                    <File name="vendor\guzzlehttp\streams\Makefile" />
+                    <File name="vendor\guzzlehttp\streams\phpunit.xml.dist" />
+                    <File name="vendor\guzzlehttp\streams\README.rst" />
+                </Folder>
+            </Folder>
+            <Folder name="psr">
+                <Folder name="log">
+                    <Folder name="Psr">
+                        <Folder name="Log">
+                            <Folder name="Test">
+                                <File name="vendor\psr\log\Psr\Log\Test\LoggerInterfaceTest.php" />
+                            </Folder>
+                            <File name="vendor\psr\log\Psr\Log\AbstractLogger.php" />
+                            <File name="vendor\psr\log\Psr\Log\InvalidArgumentException.php" />
+                            <File name="vendor\psr\log\Psr\Log\LoggerAwareInterface.php" />
+                            <File name="vendor\psr\log\Psr\Log\LoggerAwareTrait.php" />
+                            <File name="vendor\psr\log\Psr\Log\LoggerInterface.php" />
+                            <File name="vendor\psr\log\Psr\Log\LoggerTrait.php" />
+                            <File name="vendor\psr\log\Psr\Log\LogLevel.php" />
+                            <File name="vendor\psr\log\Psr\Log\NullLogger.php" />
+                        </Folder>
+                    </Folder>
+                    <File name="vendor\psr\log\.gitignore" />
+                    <File name="vendor\psr\log\composer.json" />
+                    <File name="vendor\psr\log\LICENSE" />
+                    <File name="vendor\psr\log\README.md" />
+                </Folder>
+            </Folder>
+            <Folder name="react">
+                <Folder name="promise">
+                    <Folder name="src">
+                        <Folder name="Exception">
+                            <File name="vendor\react\promise\src\Exception\LengthException.php" />
+                        </Folder>
+                        <File name="vendor\react\promise\src\CancellablePromiseInterface.php" />
+                        <File name="vendor\react\promise\src\CancellationQueue.php" />
+                        <File name="vendor\react\promise\src\Deferred.php" />
+                        <File name="vendor\react\promise\src\ExtendedPromiseInterface.php" />
+                        <File name="vendor\react\promise\src\FulfilledPromise.php" />
+                        <File name="vendor\react\promise\src\functions.php" />
+                        <File name="vendor\react\promise\src\functions_include.php" />
+                        <File name="vendor\react\promise\src\LazyPromise.php" />
+                        <File name="vendor\react\promise\src\Promise.php" />
+                        <File name="vendor\react\promise\src\PromiseInterface.php" />
+                        <File name="vendor\react\promise\src\PromisorInterface.php" />
+                        <File name="vendor\react\promise\src\RejectedPromise.php" />
+                        <File name="vendor\react\promise\src\UnhandledRejectionException.php" />
+                    </Folder>
+                    <Folder name="tests">
+                        <Folder name="fixtures">
+                            <File name="vendor\react\promise\tests\fixtures\SimpleFulfilledTestPromise.php" />
+                            <File name="vendor\react\promise\tests\fixtures\SimpleFulfilledTestThenable.php" />
+                            <File name="vendor\react\promise\tests\fixtures\SimpleRejectedTestPromise.php" />
+                            <File name="vendor\react\promise\tests\fixtures\SimpleTestCancellable.php" />
+                            <File name="vendor\react\promise\tests\fixtures\SimpleTestCancellableThenable.php" />
+                        </Folder>
+                        <Folder name="PromiseAdapter">
+                            <File name="vendor\react\promise\tests\PromiseAdapter\CallbackPromiseAdapter.php" />
+                            <File name="vendor\react\promise\tests\PromiseAdapter\PromiseAdapterInterface.php" />
+                        </Folder>
+                        <Folder name="PromiseTest">
+                            <File name="vendor\react\promise\tests\PromiseTest\CancelTestTrait.php" />
+                            <File name="vendor\react\promise\tests\PromiseTest\FullTestTrait.php" />
+                            <File name="vendor\react\promise\tests\PromiseTest\NotifyTestTrait.php" />
+                            <File name="vendor\react\promise\tests\PromiseTest\PromiseFulfilledTestTrait.php" />
+                            <File name="vendor\react\promise\tests\PromiseTest\PromisePendingTestTrait.php" />
+                            <File name="vendor\react\promise\tests\PromiseTest\PromiseRejectedTestTrait.php" />
+                            <File name="vendor\react\promise\tests\PromiseTest\PromiseSettledTestTrait.php" />
+                            <File name="vendor\react\promise\tests\PromiseTest\RejectTestTrait.php" />
+                            <File name="vendor\react\promise\tests\PromiseTest\ResolveTestTrait.php" />
+                        </Folder>
+                        <Folder name="Stub">
+                            <File name="vendor\react\promise\tests\Stub\CallableStub.php" />
+                        </Folder>
+                        <File name="vendor\react\promise\tests\bootstrap.php" />
+                        <File name="vendor\react\promise\tests\CancellationQueueTest.php" />
+                        <File name="vendor\react\promise\tests\DeferredTest.php" />
+                        <File name="vendor\react\promise\tests\FulfilledPromiseTest.php" />
+                        <File name="vendor\react\promise\tests\FunctionAllTest.php" />
+                        <File name="vendor\react\promise\tests\FunctionAnyTest.php" />
+                        <File name="vendor\react\promise\tests\FunctionCheckTypehintTest.php" />
+                        <File name="vendor\react\promise\tests\FunctionMapTest.php" />
+                        <File name="vendor\react\promise\tests\FunctionRaceTest.php" />
+                        <File name="vendor\react\promise\tests\FunctionReduceTest.php" />
+                        <File name="vendor\react\promise\tests\FunctionRejectTest.php" />
+                        <File name="vendor\react\promise\tests\FunctionResolveTest.php" />
+                        <File name="vendor\react\promise\tests\FunctionSomeTest.php" />
+                        <File name="vendor\react\promise\tests\LazyPromiseTest.php" />
+                        <File name="vendor\react\promise\tests\PromiseTest.php" />
+                        <File name="vendor\react\promise\tests\RejectedPromiseTest.php" />
+                        <File name="vendor\react\promise\tests\TestCase.php" />
+                    </Folder>
+                    <File name="vendor\react\promise\.gitignore" />
+                    <File name="vendor\react\promise\.travis.yml" />
+                    <File name="vendor\react\promise\CHANGELOG.md" />
+                    <File name="vendor\react\promise\composer.json" />
+                    <File name="vendor\react\promise\LICENSE" />
+                    <File name="vendor\react\promise\phpunit.xml.dist" />
+                    <File name="vendor\react\promise\README.md" />
+                </Folder>
+            </Folder>
+            <File name="vendor\autoload.php" />
+        </Folder>
+        <File name="composer.json" />
+        <File name="composer.lock" />
+        <File name="index.php" />
+    </Project>
+    <Project name="elasticsearch" />
+</NotepadPlus>
